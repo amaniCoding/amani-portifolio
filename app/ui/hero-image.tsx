@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 export default function HeroImage() {
     return (
-        <section className="w-full md:bg-slate-600" style={{marginTop: '74px'}}>
+        <section className="w-full md:bg-slate-600 mt-[74px]">
             <div className='max-w-screen-xl mx-auto relative overflow-hidden'>
 
-                <div className='flex md:flex-row flex-col md:min-h-screen'>
+                <div className='flex md:flex-row flex-col md:min-h-[99vh]'>
                     <div className='md:w-1/2 felx md:p-4 p-0 content-center'>
                         <div className='flex w-full flex-col space-y-1 md:space-y-4 p-4'>
                             <h1 className='md:text-3xl text-2xl font-bold md:text-white text-black md:block hidden'>Hi there, I am Amanuel 👋</h1>
