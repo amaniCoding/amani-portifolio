@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function HeroImage() {
     return (
-        <section className="w-full md:bg-slate-600 mt-[74px]">
+        <section className="w-full md:bg-slate-600 mt-[74px]" id='home'>
             <div className='max-w-screen-xl mx-auto relative overflow-hidden'>
 
                 <div className='flex md:flex-row flex-col md:min-h-[99vh]'>

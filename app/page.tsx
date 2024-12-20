@@ -1,4 +1,5 @@
 import AboutMe from "./ui/about-me";
+import Certificates from "./ui/cerfificates";
 import Footer from "./ui/footer";
 import GetInTouch from "./ui/get-in-touch";
 import HeroImage from "./ui/hero-image";
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroImage />
       <AboutMe/>
       <TechStacks/>
+      <Certificates/>
       <Works/>
       <GetInTouch/>
       <Footer/>

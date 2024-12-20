@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function GetInTouch() {
   return (
-    <section className="w-full p-3" id="get-in-touch">
+    <section className="w-full p-3" id="contact-me">
 
       <div className="mx-auto max-w-screen-sm py-3 pb-2">
         <h1 className='md:text-3xl text-2xl font-bold text-center my-1'>Get In Touch</h1>

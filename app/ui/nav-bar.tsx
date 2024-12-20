@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from "react"
+import React, { useState } from "react"
 import clsx from "clsx";
 import Image from 'next/image';
 import Link from "next/link";
@@ -9,6 +9,15 @@ export default function Navbar() {
     const [showCollapse, setShowCollapse] = useState(false);
     const handelCollapse = () => {
         setShowCollapse(!showCollapse);
+    }
+    const hadelScroll = (e: React.MouseEvent<HTMLElement> ,name: string) => {
+        e.preventDefault()
+        window.scrollTo({
+            // @ts-ignore: Object is possibly 'null'.
+            top: document.querySelector(`#${name}`).offsetTop-72,
+            behavior: "smooth"
+        });
+        setShowCollapse(false);
     }
     return (
         <nav className="bg-white shadow-md fixed w-full z-20 top-0 left-0 right-0">
@@ -41,19 +50,22 @@ export default function Navbar() {
                 }>
                     <ul className="flex flex-col mt-4 border border-gray-100 rounded-lg bg-orange-50 md:flex-row md:space-x-2 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
                         <li>
-                            <Link href="https://zeamanuel.vercel.app/" className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">Home</Link>
+                            <Link href="#" onClick={(e) => {hadelScroll(e, "home")}} className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">Home</Link>
                         </li>
                         <li>
-                            <Link href="https://zeamanuel.vercel.app//#about-me" className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">About Me</Link>
+                            <Link href="#" onClick={(e) => {hadelScroll(e, "about-me")}} className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">About Me</Link>
                         </li>
                         <li>
-                            <Link href="https://zeamanuel.vercel.app//#works" className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">Works</Link>
+                            <Link href="#" onClick={(e) => {hadelScroll(e, "works")}} className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">Works</Link>
                         </li>
                         <li>
-                            <Link href="https://zeamanuel.vercel.app//#get-in-touch" className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">Contact Me</Link>
+                            <Link href="#" onClick={(e) => {hadelScroll(e, "contact-me")}} className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">Contact Me</Link>
                         </li>
                         <li>
-                            <Link href="https://zeamanuel.vercel.app//#skills" className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">Skills</Link>
+                            <Link href="#" onClick={(e) => {hadelScroll(e, "skills")}}  className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">Skills</Link>
+                        </li>
+                        <li>
+                            <Link href="#" onClick={(e) => {hadelScroll(e, "certificates")}}  className="block py-2 px-3 text-whit rounded md:hover:bg-orange-500 md:hover:text-white hover:bg-slate-200 hover:text-black" aria-current="page">Certificates</Link>
                         </li>
                     </ul>
                 </div>
