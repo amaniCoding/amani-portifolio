@@ -13,7 +13,7 @@ export default function Navbar() {
     const hadelScroll = (e: React.MouseEvent<HTMLElement> ,name: string) => {
         e.preventDefault()
         window.scrollTo({
-            //@ts-expect-error
+            // @ts-ignore: Object is possibly 'null'.
             top: document.querySelector(`#${name}`).offsetTop-72,
             behavior: "smooth"
         });
