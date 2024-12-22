@@ -37,32 +37,32 @@ export default function Works() {
     {
       id: 1,
       title: "Simple shopping cart application in next js frame work",
-      photo: "/works/1.png",
+      photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 2,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 3,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 4,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         }
 
       ]
@@ -70,32 +70,32 @@ export default function Works() {
     {
       id: 2,
       title: "Simple shopping cart application in next js frame work",
-      photo: "/works/1.png",
+      photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 2,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 3,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 4,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         }
 
       ]
@@ -103,32 +103,32 @@ export default function Works() {
     {
       id: 3,
       title: "Simple shopping cart application in next js frame work",
-      photo: "/works/1.png",
+      photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 2,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 3,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 4,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         }
 
       ]
@@ -136,32 +136,32 @@ export default function Works() {
     {
       id: 4,
       title: "Simple shopping cart application in next js frame work",
-      photo: "/works/1.png",
+      photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 2,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 3,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 4,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         }
 
       ]
@@ -169,32 +169,32 @@ export default function Works() {
     {
       id: 5,
       title: "Simple shopping cart application in next js frame work",
-      photo: "/works/1.png",
+      photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 2,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 3,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 4,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         }
 
       ]
@@ -202,32 +202,32 @@ export default function Works() {
     {
       id: 6,
       title: "Simple shopping cart application in next js frame work",
-      photo: "/works/1.png",
+      photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 2,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 3,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         },
         {
           id: 4,
           title: "data fetching",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.png",
+          photo: "/works/1.jpg",
         }
 
       ]
