@@ -10,11 +10,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-export function Entry({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export function Entry({children} : {children : React.ReactNode}) {
 
   return (
     <body

@@ -12,7 +12,7 @@ import { useContext, useRef } from "react";
 import { AppContext } from "../Provider/provider";
 import Link from "next/link";
 
-export default function (props: { work?: MyWork, modalContent?: Modalcontent[], isModalOpen: boolean }) {
+export default function WorkModal(props: { work?: MyWork, modalContent?: Modalcontent[], isModalOpen: boolean }) {
 
   const settings = {
     dots: true,
