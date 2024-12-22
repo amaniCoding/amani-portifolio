@@ -16,10 +16,10 @@ export default function Home() {
       <Navbar />
       <HeroImage />
       <AboutMe/>
-      <TechStacks/>
-      <Certificates/>
       <Works/>
+      <TechStacks/>
       <GetInTouch/>
+      <Certificates/>
       <Footer/>
     </main>
   );

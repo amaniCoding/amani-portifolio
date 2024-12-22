@@ -14,15 +14,15 @@ export default function Navbar() {
         e.preventDefault()
         window.scrollTo({
             // @ts-expect-error: Object is possibly 'null'.
-            top: document.querySelector(`#${name}`).offsetTop-72,
+            top: document.querySelector(`#${name}`).offsetTop-65,
             behavior: "smooth"
         });
         setShowCollapse(false);
     }
     return (
         <nav className="bg-white shadow-md fixed w-full z-20 top-0 left-0 right-0">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 relative">
-                <Link href={`https://zeamanuel.vercel.app/`} className="flex items-center space-x-3">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:p-1 p-4 relative">
+                <Link href={`#`} onClick={(e) => {hadelScroll(e, "home")}} className="flex items-center space-x-3">
                     <Image
                         src="/7.png"
                         alt="Amanuel Ferede"
@@ -30,9 +30,9 @@ export default function Navbar() {
                         height={0}
                         sizes='100vh'
 
-                        className="block w-10 h-10 rounded-full object-cover border-1 border-orange-700 p-1"
+                        className="block md:w-14 md:h-14 w-10 h-10 rounded-full object-cover border-6 border-orange-700 p-1 bg-orange-600"
                     />
-                    <span className="self-center text-2xl whitespace-nowrap dark:text-white">Amanuel</span>
+                    <span className="self-center text-2xl whitespace-nowrap dark:text-white">Amanuel Ferede</span>
                 </Link>
                 <button onClick={handelCollapse} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>

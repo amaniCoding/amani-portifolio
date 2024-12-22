@@ -1,158 +1,282 @@
 'use client'
 import { EyeIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import Link from "next/link";
+import { useContext, useEffect } from "react";
+import WorkModal from "./work-modal";
+import { AppContext } from "../Provider/provider";
+import { GlobalContextType, MyWork } from "../types/types";
 
 export default function Works() {
+
+  const {state, dispatch} = useContext(AppContext) as GlobalContextType;
+
+  useEffect(() => {
+    if(state.modal.isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+  }, [state.modal.isOpen])
+
+  const handelShowModal = (work: MyWork) => {
+    console.log(work.title);
+    dispatch({
+      type: 'SHOW_MODAL',
+      payload: {
+        modal: {
+          isOpen: true,
+          work: work,
+          modalContent: work.modalContent
+        }
+      }
+    })
+  }
+
+  const works = [
+    {
+      id: 1,
+      title: "Simple shopping cart application in next js frame work",
+      photo: "/works/1.png",
+      link: "https://next-starter-project-woad.vercel.app/",
+      modalContent: [
+        {
+          id: 1,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 2,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 3,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 4,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        }
+
+      ]
+    },
+    {
+      id: 2,
+      title: "Simple shopping cart application in next js frame work",
+      photo: "/works/1.png",
+      link: "https://next-starter-project-woad.vercel.app/",
+      modalContent: [
+        {
+          id: 1,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 2,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 3,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 4,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        }
+
+      ]
+    },
+    {
+      id: 3,
+      title: "Simple shopping cart application in next js frame work",
+      photo: "/works/1.png",
+      link: "https://next-starter-project-woad.vercel.app/",
+      modalContent: [
+        {
+          id: 1,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 2,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 3,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 4,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        }
+
+      ]
+    },
+    {
+      id: 4,
+      title: "Simple shopping cart application in next js frame work",
+      photo: "/works/1.png",
+      link: "https://next-starter-project-woad.vercel.app/",
+      modalContent: [
+        {
+          id: 1,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 2,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 3,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 4,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        }
+
+      ]
+    },
+    {
+      id: 5,
+      title: "Simple shopping cart application in next js frame work",
+      photo: "/works/1.png",
+      link: "https://next-starter-project-woad.vercel.app/",
+      modalContent: [
+        {
+          id: 1,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 2,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 3,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 4,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        }
+
+      ]
+    },
+    {
+      id: 6,
+      title: "Simple shopping cart application in next js frame work",
+      photo: "/works/1.png",
+      link: "https://next-starter-project-woad.vercel.app/",
+      modalContent: [
+        {
+          id: 1,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 2,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 3,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        },
+        {
+          id: 4,
+          title: "data fetching",
+          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          photo: "/works/1.png",
+        }
+
+      ]
+    },
+    
+    
+  ]
   return (
-    <section className="w-full bg-slate-100 my-1 md:p-4 p-2" id="works">
+    <>
+      <section className="w-full py-2 bg-slate-100" id="works">
+        <div className="mx-auto max-w-screen-sm">
 
-      <div className="mx-auto max-w-screen-sm p-5">
+        <h1 className='md:text-3xl text-xl font-bold text-center mb-1'>Works</h1>
+        <p className="text-center mb-2">These are some of the projects I have worked and participated on up until now.</p>
+        </div>
 
-        <h1 className='md:text-3xl text-2xl font-bold text-center mb-1'>Works</h1>
-        <p className="text-slate-700 md:text-center text-justify md:p-0 p-4 w-full">These are some of the projects I have worked and participated on up until now.</p>
-      </div>
+        <div className="mx-auto max-w-screen-xl">
 
-      <div className="mx-auto max-w-screen-xl">
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-4 ">
+            {
+              works.map(work => {
+                return (
+                  <div className="bg-white shadow-sm hover:shadow-lg group" key={work.id}>
+                    <div className="">
+                      <Image
+                        src={`${work.photo}`}
+                        alt="next starter project"
+                        width={200}
+                        height={200}
 
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-4 ">
+                        className="block w-full h-full group-hover:brightness-75 transition-all duration-300 ease-in-out"
+                      />
+                    </div>
 
-          <div className="p-2 bg-white shadow-sm hover:shadow-lg group">
-            <div className=""> 
-              <Image
-                src="/3.png"
-                alt="next starter project"
-                width={200}
-                height={200}
-                
-                className="block w-full h-full group-hover:brightness-75 transition-all duration-300 ease-in-out"
-              />
-            </div>
-
-            <div className="py-2 mt-2 px-4">
-              <p>Simple shopping cart application in next js frame work</p>
-              <div className="flex">
-                <div className="mt-2">
-                  <EyeIcon className="cursor-pointer" color="orange" width={25} height={25} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-2 bg-white shadow-sm hover:shadow-lg group">
-            <div>
-            <Image
-                src="/3.png"
-                alt="next starter project"
-                width={200}
-                height={200}
-                
-                className="block w-full h-full group-hover:brightness-75 transition-all duration-300 ease-in-out"
-              />
-            </div>
-
-            <div className="py-2 mt-2 px-4">
-              <p>Simple shopping cart application in next js frame work</p>
-              <div className="flex">
-                <div className="mt-2">
-                  <EyeIcon className="cursor-pointer" color="orange" width={25} height={25} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-2 bg-white shadow-sm hover:shadow-lg group">
-            <div>
-            <Image
-                src="/3.png"
-                alt="next starter project"
-                width={200}
-                height={200}
-                
-                className="block w-full h-full group-hover:brightness-75 transition-all duration-300 ease-in-out"
-              />
-            </div>
-
-            <div className="py-2 mt-2 px-4">
-              <p>Simple shopping cart application in next js frame work</p>
-              <div className="flex">
-                <div className="mt-2">
-                  <EyeIcon className="cursor-pointer" color="orange" width={25} height={25} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-2 bg-white shadow-sm hover:shadow-lg group">
-            <div>
-            <Image
-                src="/3.png"
-                alt="next starter project"
-                width={200}
-                height={200}
-                
-                className="block w-full h-full group-hover:brightness-75 transition-all duration-300 ease-in-out"
-              />
-            </div>
-
-            <div className="py-2 mt-2 px-4">
-              <p>Simple shopping cart application in next js frame work</p>
-              <div className="flex">
-                <div className="mt-2">
-                  <EyeIcon className="cursor-pointer" color="orange" width={25} height={25} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-2 bg-white shadow-sm hover:shadow-lg group">
-            <div>
-            <Image
-                src="/3.png"
-                alt="next starter project"
-                width={200}
-                height={200}
-                
-                className="block w-full h-full group-hover:brightness-75 transition-all duration-1000 ease-in-out"
-              />
-            </div>
-
-            <div className="py-3 mt-2 px-4">
-              <p>Simple shopping cart application in next js frame work</p>
-              <div className="flex">
-                <div className="mt-2">
-                  <EyeIcon className="cursor-pointer" color="orange" width={25} height={25} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-2 bg-white shadow-sm hover:shadow-lg group">
-            <div>
-            <Image
-                src="/3.png"
-                alt="next starter project"
-                width={200}
-                height={200}
-                
-                className="block w-full h-full group-hover:brightness-75 transition-all duration-300 ease-in-out"
-              />
-            </div>
-
-            <div className="py-2 mt-2 px-4">
-              <p>Simple shopping cart application in next js frame work</p>
-              <div className="flex">
-                <div className="mt-2">
-                  <EyeIcon className="cursor-pointer" color="orange" width={25} height={25} />
-                </div>
-              </div>
-            </div>
+                    <div className="flex items-center justify-between space-x-5 px-5 pb-4 mt-1">
+                      <p className="grow">{work.title}</p>
+                      <div className="md:flex hidden items-center justify-center p-2 bg-slate-300 rounded-full w-10 h-10 cursor-pointer" title="Show more" onClick={() => {handelShowModal(work)}}>
+                        <EyeIcon className="h-10 w-10" color="black" />
+                      </div>
+                      <Link href={`${work.link}`} className="p-2 block rounded-md bg-orange-500 text-white">Visit</Link>
+                    </div>
+                  </div>
+                )
+              })
+            }
           </div>
         </div>
-      </div>
-
-
-
-
-    </section>
+      </section>
+      <WorkModal modalContent={state.modal.modalContent} work={state.modal.work} isModalOpen={state.modal.isOpen}/>
+    </>
   )
 }
