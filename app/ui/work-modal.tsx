@@ -47,39 +47,42 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
     <div className={`bg-black/50 fixed z-30 top-0 bottom-0 left-0 right-0 flex items-center justify-center ${props.isModalOpen ? ' block' : 'hidden'}`}>
       <div className="p-5 max-w-screen-sm block bg-white relative rounded-md"
       >
-       <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white" />
-         <ArrowRightIcon onClick={handelNext} className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2  hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white" />
+        <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white" />
+        <ArrowRightIcon onClick={handelNext} className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2  hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white" />
         <div className="h-10 w-10 flex items-center justify-center absolute top-2 right-3 cursor-pointer hover:bg-slate-300 p-2 rounded-full" onClick={handelCloseModal}>
           <XMarkIcon />
         </div>
         <div className="flex flex-col">
 
           <div className="w-[95%]"><p className="font-semibold text-lg text-cente text-black">Features for {props.work?.title} include </p></div>
-          <div className="mb-7">
-            <Slider {...settings} ref={sliderRef}>
-              {
-                props.modalContent?.map(modal => {
-                  return (
-                    <div className="flex flex-col" key={modal.id}>
-                      <div className="text-center">
-                        <span className="px-2 py-1 inline-block rounded-lg text-center mb-2 bg-slate-50 text-lg">{modal.title}</span>
+          <div className="h-[420px] py-2 px-1 overflow-y-scroll">
+            <div>
+              <Slider {...settings} ref={sliderRef}>
+                {
+                  props.modalContent?.map(modal => {
+                    return (
+                      <div className="flex flex-col" key={modal.id}>
+                        <div className="text-center">
+                          <span className="px-2 py-1 inline-block rounded-lg text-center mb-2 bg-slate-50 text-lg">{modal.title}</span>
+                        </div>
+                        <p className="px-3 mb-2">{modal.description}</p>
+                        <Image
+                          src={`${modal.photo}`}
+                          alt={`${modal.title}`}
+                          width={0}
+                          height={0}
+                          sizes="100vh"
+                          className="w-full h-auto"
+                        />
                       </div>
-                      <p className="px-3 mb-2">{modal.description}</p>
-                      <Image
-                        src={`${modal.photo}`}
-                        alt={`${modal.title}`}
-                        width={0}
-                        height={0}
-                        sizes="100vh"
-                        className="w-full h-auto"
-                      />
-                    </div>
-                  )
-                })
-              }
-            </Slider>
+                    )
+                  })
+                }
+              </Slider>
 
+            </div>
           </div>
+
           <div className="p-2 w-full flex items-center justify-between" onClick={handelCloseModal}>
             <button className="rounded-lg p-2 bg-slate-300 text-center text-black">Cancel</button>
             <Link

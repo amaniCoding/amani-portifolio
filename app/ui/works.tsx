@@ -36,32 +36,32 @@ export default function Works() {
   const works = [
     {
       id: 1,
-      title: "Simple shopping cart application in next js frame work",
+      title: "Next js starter project in next.js latest framework, tailwind css for styling",
       photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
+          title: "Styling",
+          description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
+          photo: "/works/1-wo-1.jpg",
         },
         {
           id: 2,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
+          title: "Database connectivity",
+          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
+          photo: "/works/1-wo-2.jpg",
         },
         {
           id: 3,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
+          title: "Data fetching",
+          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
+          photo: "/works/1-wo-3.jpg",
         },
         {
           id: 4,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          title: "Authonticaion",
+          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
           photo: "/works/1.jpg",
         }
 
@@ -75,26 +75,26 @@ export default function Works() {
       modalContent: [
         {
           id: 1,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
+          title: "Styling",
+          description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
+          photo: "/works/1-wo-1.jpg",
         },
         {
           id: 2,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
+          title: "Database connectivity",
+          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
+          photo: "/works/1-wo-2.jpg",
         },
         {
           id: 3,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
+          title: "Data fetching",
+          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
+          photo: "/works/1-wo-3.jpg",
         },
         {
           id: 4,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          title: "Authonticaion",
+          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
           photo: "/works/1.jpg",
         }
 
@@ -102,32 +102,32 @@ export default function Works() {
     },
     {
       id: 3,
-      title: "Simple shopping cart application in next js frame work",
+      title: "Dev connect that connects developers across the world",
       photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
+          title: "Styling",
+          description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
+          photo: "/works/1-wo-1.jpg",
         },
         {
           id: 2,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
+          title: "Database connectivity",
+          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
+          photo: "/works/1-wo-2.jpg",
         },
         {
           id: 3,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
+          title: "Data fetching",
+          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
+          photo: "/works/1-wo-3.jpg",
         },
         {
           id: 4,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          title: "Authonticaion",
+          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
           photo: "/works/1.jpg",
         }
 
@@ -135,68 +135,54 @@ export default function Works() {
     },
     {
       id: 4,
-      title: "Simple shopping cart application in next js frame work",
+      title: "Medico website : frontend only in tailwindcss and react",
       photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          title: "",
+          description: "",
           photo: "/works/1.jpg",
         },
         {
-          id: 2,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          id: 1,
+          title: "",
+          description: "",
           photo: "/works/1.jpg",
         },
         {
-          id: 3,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          id: 1,
+          title: "",
+          description: "",
           photo: "/works/1.jpg",
         },
-        {
-          id: 4,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
-        }
-
       ]
     },
     {
       id: 5,
-      title: "Simple shopping cart application in next js frame work",
+      title: "Company website in tailwin css and next.js",
       photo: "/works/1.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          title: "",
+          description: "",
           photo: "/works/1.jpg",
         },
         {
-          id: 2,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          id: 1,
+          title: "",
+          description: "",
           photo: "/works/1.jpg",
         },
         {
-          id: 3,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          id: 1,
+          title: "",
+          description: "",
           photo: "/works/1.jpg",
         },
-        {
-          id: 4,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
-        }
-
       ]
     },
     {
@@ -267,7 +253,7 @@ export default function Works() {
                       <div className="md:flex hidden items-center justify-center p-2 bg-slate-300 rounded-full w-10 h-10 cursor-pointer" title="Show more" onClick={() => {handelShowModal(work)}}>
                         <EyeIcon className="h-10 w-10" color="black" />
                       </div>
-                      <Link href={`${work.link}`} className="p-2 block rounded-md bg-orange-500 text-white">Visit</Link>
+                      <Link href={`${work.link}`} target="_blank" className="p-2 block rounded-md bg-orange-500 text-white">Visit</Link>
                     </div>
                   </div>
                 )
