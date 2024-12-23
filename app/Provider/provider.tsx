@@ -14,7 +14,8 @@ export default function MyProvider({
     modal: {
       isOpen: false,
       modalContent: [],
-      work: undefined
+      work: undefined,
+      isDark: false
     }
   }
 

@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Footer() {
   return (
-    <section className="w-full pt-3 bg-slate-500">
+    <section className="w-full pt-3 bg-slate-900 dark:bg-black">
 
       <div className="mx-auto w-full text-white">
         <div className="p-3 pt-3">
@@ -20,12 +20,12 @@ export default function Footer() {
               />
             </div>
             <div className="flex flex-col">
-              <p>Amanuel Ferede</p>
-              <p>Fullstack Software Engineer</p>
+              <p className="dark:text-slate-300">Amanuel Ferede</p>
+              <p className="dark:text-slate-300">Fullstack Software Engineer</p>
               
             </div>
             
-            <div className="md:mt-0 mt-4">
+            <div className="md:mt-0 mt-4 dark:text-slate-300">
               Site made with Next.Js and tailwindcss, hosted on Vercel, full source code availble on github
             </div>
             <div className="flex flex-row gap-x-4 items-center md:mt-0 mt-4">

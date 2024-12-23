@@ -217,11 +217,11 @@ export default function Works() {
   ]
   return (
     <>
-      <section className="w-full py-2 bg-slate-100" id="works">
+      <section className="w-full py-2 bg-slate-100 dark:bg-black" id="works">
         <div className="mx-auto max-w-screen-sm">
 
-        <h1 className='md:text-3xl text-xl font-bold text-center mb-1'>Works</h1>
-        <p className="text-center mb-2">These are some of the projects I have worked and participated on up until now.</p>
+        <h1 className='md:text-3xl text-xl font-bold text-center mb-1 dark:text-slate-400'>Works</h1>
+        <p className="text-center mb-2 dark:text-slate-300">These are some of the projects I have worked and participated on up until now.</p>
         </div>
 
         <div className="mx-auto max-w-screen-xl">
@@ -230,7 +230,7 @@ export default function Works() {
             {
               works.map(work => {
                 return (
-                  <div className="bg-white shadow-sm hover:shadow-lg group" key={work.id}>
+                  <div className="bg-white dark:bg-slate-800 dark:p-2 shadow-sm hover:shadow-lg dark:rounded-lg dark:hover:bg-slate-500 group rounded-lg" key={work.id}>
                     <div className="">
                       <Image
                         src={`${work.photo}`}
@@ -238,16 +238,16 @@ export default function Works() {
                         width={200}
                         height={200}
 
-                        className="block w-full h-full group-hover:brightness-75 transition-all duration-300 ease-in-out"
+                        className="block w-full h-full group-hover:brightness-75 transition-all duration-300 ease-in-out rounded-b-md"
                       />
                     </div>
 
                     <div className="flex items-center justify-between space-x-5 px-5 pb-4 mt-1">
-                      <p className="grow">{work.title}</p>
-                      <div className="md:flex hidden items-center justify-center p-2 bg-slate-300 rounded-full w-10 h-10 cursor-pointer" title="Show more" onClick={() => {handelShowModal(work)}}>
-                        <EyeIcon className="h-10 w-10" color="black" />
+                      <p className="grow dark:text-slate-300">{work.title}</p>
+                      <div className="md:flex hidden items-center justify-center p-2 bg-slate-white rounded-full w-10 h-10 cursor-pointer" title="Show more" onClick={() => {handelShowModal(work)}}>
+                        <EyeIcon className="h-10 w-10 dark:text-slate-300" color="black" />
                       </div>
-                      <Link href={`${work.link}`} target="_blank" className="p-2 block rounded-md bg-orange-500 text-white">Visit</Link>
+                      <Link href={`${work.link}`} target="_blank" className="p-2 block rounded-md dark:bg-slate-500 dark:text-slate-300 bg-orange-500 text-white dark:group-hover:bg-slate-950">Visit</Link>
                     </div>
                   </div>
                 )

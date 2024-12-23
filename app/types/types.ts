@@ -20,7 +20,8 @@ export type MyWork = {
 export type Modal = {
   isOpen: boolean;
   modalContent?: Modalcontent[];
-  work?: MyWork
+  work?: MyWork;
+  isDark?: boolean;
 }
 
 export type MyContext = {
@@ -33,4 +34,4 @@ export type GlobalContextType = {
 }
 
 
-export type MyAction = | { type: 'SHOW_MODAL'; payload: MyContext } | { type: 'CLOSE_MODAL'; payload: MyContext };
+export type MyAction = | { type: 'SHOW_MODAL'; payload: MyContext } | { type: 'CLOSE_MODAL'; payload: MyContext } | {type: 'SET_DARK', payload: boolean} | {type: 'OFF_DARK', payload: boolean}

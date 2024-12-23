@@ -11,6 +11,10 @@ export const reducer = (state: MyContext, action: MyAction): MyContext => {
         return {
           ...state, modal: {...state.modal, isOpen: action.payload.modal.isOpen, modalContent: action.payload.modal.modalContent, work: action.payload.modal.work}
         }
+      case "SET_DARK":
+        return {
+          ...state, modal: {...state.modal, isDark: !state.modal.isDark}
+        } 
     default: return state;
   }
 }
