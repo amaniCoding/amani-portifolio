@@ -6,7 +6,7 @@ export function BackToTop() {
     e.preventDefault()
     window.scrollTo({
       // @ts-expect-error: Object is possibly 'null'.
-      top: document.querySelector(`#${name}`).offsetTop - 65,
+      top: document.querySelector(`#${name}`).offsetTop,
       behavior: "smooth"
     });
   }
