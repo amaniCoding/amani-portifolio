@@ -3,16 +3,16 @@ import Image from "next/image";
 
 export default function TechStacks() {
   return (
-    <section className="w-full py-2 dark:bg-black" id="skills">
+    <section className="w-full py-2 dark:bg-black dark:p-0" id="skills">
 
       <div className="mx-auto max-w-screen-sm">
-        <h1 className='md:text-3xl text-2xl font-bold text-center mb-1 dark:text-slate-300'>Tech Stacks</h1>
-        <p className="text-center mb-2 dark:text-slate-400">Here are a list of tools, libraries and platforms I have had precious experience on.</p>
+        <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-400'>Tech Stacks</h1>
+        <p className="text-center mb-2 dark:text-slate-200 px-3">Here are a list of tools, libraries and platforms I have had precious experience on.</p>
       </div>
       <div className="mx-auto max-w-screen-xl">
-        <div className="grid md:grid-cols-3 grid-cols-2 gap-3">
+        <div className="grid md:grid-cols-3 grid-cols-2 md:gap-3 gap-1">
 
-          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-800">
+          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out md:rounded-md p-5 dark:bg-gray-900">
             <div className="flex items-center justify-center bg-slate-100 rounded-full w-20 h-20 dark:bg-gray-600 dark:p-4">
 
               <Image
@@ -26,13 +26,13 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='text-lg my-1 font-bold text-center text-slate-800 dark:text-slate-200'>React</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>React</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
 
 
-          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-800">
+          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-900">
             <div className="flex items-center justify-center bg-slate-100 rounded-full w-20 h-20 dark:bg-gray-600 dark:p-4">
 
               <Image
@@ -46,13 +46,13 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='text-lg my-1 font-bold text-center text-slate-800 dark:text-white'>Next.js</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>Next.js</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
 
 
-          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-800">
+          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-900">
             <div className="flex items-center justify-center bg-slate-100 rounded-full w-20 h-20 dark:bg-gray-600 dark:p-4">
 
               <Image
@@ -66,13 +66,13 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='text-lg my-1 font-bold text-center text-slate-800 dark:text-white'>Node .js</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>Node .js</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
 
 
-          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-800">
+          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-900">
             <div className="flex items-center justify-center bg-slate-100 rounded-full w-20 h-20 dark:bg-gray-600 dark:p-4">
 
               <Image
@@ -86,13 +86,13 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='text-lg my-1 font-bold text-center text-slate-800 dark:text-white'>MongoDb / SQL</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>MongoDb / SQL</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
 
 
-          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-800">
+          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-900">
             <div className="flex items-center justify-center bg-slate-100 rounded-full w-20 h-20 dark:bg-gray-600 dark:p-4">
 
               <Image
@@ -106,13 +106,13 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='text-lg my-1 font-bold text-center text-slate-800 dark:text-white'>Javascript / Typescript</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>Javascript / Typescript</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
 
 
-          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-800">
+          <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out rounded-lg p-5 dark:bg-gray-900">
             <div className="flex items-center justify-center bg-slate-100 rounded-full w-20 h-20 dark:bg-gray-600 dark:p-4">
 
               <Image
@@ -126,7 +126,7 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='text-lg my-1 font-bold text-center text-slate-800 dark:text-white'>Css / TailwindCss</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>Css / TailwindCss</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>

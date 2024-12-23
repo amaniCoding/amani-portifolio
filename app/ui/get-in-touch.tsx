@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function GetInTouch() {
   return (
-    <section className="w-full md:py-2 px-5 dark:py-4 dark:bg-slate-600" id="contact-me">
+    <section className="w-full md:py-2 px-5 dark:py-4 dark:bg-slate-700" id="contact-me">
 
       <div className="mx-auto max-w-screen-sm">
-        <h1 className='md:text-3xl text-xl font-bold text-center mb-1 dark:text-white'>Get In Touch</h1>
-        <p className="text-center mb-2 dark:text-white"> I am usually active on the mediums listed below. Use your preference to contact me.</p>
+        <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-300'>Get In Touch</h1>
+        <p className="text-center mb-2 dark:text-slate-200"> I am usually active on the mediums listed below. Use your preference to contact me.</p>
 
       </div>
       <div className="mx-auto max-w-screen-sm">
@@ -29,7 +29,7 @@ export default function GetInTouch() {
           </div>
           <div className="w-0.5 md:block hidden min-h-full bg-black"></div>
           <div className="flex flex-col">
-            <p className="md:mt-0 mb-2 dark:text-white">Do you prefer an email ? Reach out at my address below
+            <p className="md:mt-0 mb-2 dark:text-slate-200">Do you prefer an email ? Reach out at my address below
 
               <span className="block">amanuelfrm@gmail.com</span>
             </p>
@@ -37,7 +37,7 @@ export default function GetInTouch() {
               href={`mailto:amanuelfrm@gmail.com`}
               className="block"
             >
-              <button className="py-2 rounded-md px-3 w-24 block bg-orange-600 text-white dark:bg-slate-950 dark:text-white">Compose</button>
+              <button className="py-2 rounded-md px-3 w-24 block bg-orange-600 text-white dark:bg-slate-950 dark:text-slate-200 md:text-md text-sm">Compose</button>
             </Link>
 
           </div>

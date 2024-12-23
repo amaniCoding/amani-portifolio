@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function Certificates() {
   return (
-    <section className="w-full my-1 dark:pt-4 dark:bg-slate-800" id="certificates">
+    <section className="w-full my-1 dark:pt-4 dark:mb-0 dark:mt-0 dark:bg-slate-800" id="certificates">
 
       <div className="mx-auto max-w-screen-sm">
-        <h1 className='md:text-3xl text-2xl font-bold text-center my-1 dark:text-white'>Certificates</h1>
+        <h1 className='md:text-xl text-lg font-bold text-center my-1 dark:text-slate-400'>Certificates</h1>
       </div>
       <div className="mx-auto max-w-screen-lg">
         <div className="grid md:grid-cols-5 grid-cols-2 gap-3">
@@ -17,7 +17,7 @@ export default function Certificates() {
                 href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                 target="_blank"
               >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900">Show More</button>
+                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">Show More</button>
               </Link>
             </div>
             <div className="flex flex-col items-center justify-center h-full">
@@ -47,7 +47,7 @@ export default function Certificates() {
                 />
               </Link>
 
-              <p className="mt-2 text-md font-bold text-center text-black dark:text-white">Fundamentals Of Programming</p>
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Fundamentals Of Programming</p>
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
@@ -56,7 +56,7 @@ export default function Certificates() {
                 href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=drive_link`}
                 target="_blank"
               >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900">Show More</button>
+                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 dark:text-slate-200">Show More</button>
               </Link>
             </div>
             <div className="flex flex-col items-center justify-center h-full">
@@ -85,7 +85,7 @@ export default function Certificates() {
                   alt="Screenshots of the dashboard project showing desktop version"
                 />
               </Link>
-              <p className="mt-2 text-md font-bold text-center text-black dark:text-white">Fundamentals Of Android Programming
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Fundamentals Of Android Programming
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default function Certificates() {
                 href={`https://drive.google.com/file/d/1tnA9YlmapjNED_DaiJhgAX8-rARAScgq/view?usp=drive_link`}
                 target="_blank"
               >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900">Show More</button>
+                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 dark:text-slate-200">Show More</button>
               </Link>
             </div>
             <div className="flex flex-col items-center justify-center h-full">
@@ -124,7 +124,7 @@ export default function Certificates() {
                   alt="Screenshots of the dashboard project showing desktop version"
                 />
               </Link>
-              <p className="mt-2 text-md font-bold text-center text-black dark:text-white">Data Analysis Fundamentals</p>
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Data Analysis Fundamentals</p>
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
@@ -133,7 +133,7 @@ export default function Certificates() {
                 href={`/cert/4.jpg`}
                 target="_blank"
               >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900">Show More</button>
+                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 dark:text-slate-200">Show More</button>
               </Link>
             </div>
             <div className="flex flex-col items-center justify-center h-full">
@@ -162,7 +162,7 @@ export default function Certificates() {
                   alt="Screenshots of the dashboard project showing desktop version"
                 />
               </Link>
-              <p className="mt-2 text-md font-bold text-center text-black dark:text-white">Degree Certificate</p>
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Degree Certificate</p>
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
@@ -171,7 +171,7 @@ export default function Certificates() {
                 href={`/cert/5.jpg`}
                 target="_blank"
               >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900">Show More</button>
+                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 dark:text-slate-200">Show More</button>
               </Link>
             </div>
             <div className="flex flex-col items-center justify-center h-full">
@@ -200,7 +200,7 @@ export default function Certificates() {
                   alt="Screenshots of the dashboard project showing desktop version"
                 />
               </Link>
-              <p className="mt-2 text-md font-bold text-center text-black dark:text-white">Student Record</p>
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Student Record</p>
             </div>
           </div>
         </div>
