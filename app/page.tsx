@@ -1,4 +1,5 @@
 import AboutMe from "./ui/about-me";
+import { BackToTop } from "./ui/back-to-top";
 import Certificates from "./ui/cerfificates";
 import Footer from "./ui/footer";
 import GetInTouch from "./ui/get-in-touch";
@@ -12,7 +13,7 @@ import Works from "./ui/works";
 
 export default function Home() {
   return (
-    <main>
+    <main className="relative">
       <Navbar />
       <HeroImage />
       <AboutMe/>
@@ -21,6 +22,7 @@ export default function Home() {
       <GetInTouch/>
       <Certificates/>
       <Footer/>
+      <BackToTop/>
     </main>
   );
 }

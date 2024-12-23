@@ -47,8 +47,8 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
     <div className={`bg-black/50 fixed z-30 top-0 bottom-0 left-0 right-0 flex items-center justify-center ${props.isModalOpen ? ' block' : 'hidden'}`}>
       <div className="p-5 max-w-screen-sm block bg-white relative rounded-md"
       >
-        <div className="w-9 h-9 flex items-center justify-center absolute top-1/2 z-20 left-3 bg-orange-200 rounded-full p-2 text-slate-800 cursor-pointer hover:bg-orange-500 hover:text-white " onClick={handelPrev}><ArrowLeftIcon /></div>
-        <div className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 text-slate-800 hover:bg-orange-500 hover:text-white" onClick={handelNext}><ArrowRightIcon /></div>
+       <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white" />
+         <ArrowRightIcon onClick={handelNext} className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2  hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white" />
         <div className="h-10 w-10 flex items-center justify-center absolute top-2 right-3 cursor-pointer hover:bg-slate-300 p-2 rounded-full" onClick={handelCloseModal}>
           <XMarkIcon />
         </div>
@@ -61,8 +61,10 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
                 props.modalContent?.map(modal => {
                   return (
                     <div className="flex flex-col" key={modal.id}>
-                      <p className="px-3 text-center font-serif text-xl">{modal.title}</p>
-                      <p className="px-3">{modal.description}</p>
+                      <div className="text-center">
+                        <span className="px-2 py-1 inline-block rounded-lg text-center mb-2 bg-slate-50 text-lg">{modal.title}</span>
+                      </div>
+                      <p className="px-3 mb-2">{modal.description}</p>
                       <Image
                         src={`${modal.photo}`}
                         alt={`${modal.title}`}
@@ -79,7 +81,7 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
 
           </div>
           <div className="p-2 w-full flex items-center justify-between" onClick={handelCloseModal}>
-              <button className="rounded-lg p-2 bg-slate-300 text-center text-black">Cancel</button>
+            <button className="rounded-lg p-2 bg-slate-300 text-center text-black">Cancel</button>
             <Link
               href={`${props.work?.link}`}
               className="block"

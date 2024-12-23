@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Footer() {
   return (
-    <section className="w-full pt-3 bg-slate-800">
+    <section className="w-full pt-3 bg-slate-500">
 
       <div className="mx-auto w-full text-white">
         <div className="p-3 pt-3">
