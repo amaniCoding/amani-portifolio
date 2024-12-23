@@ -146,13 +146,13 @@ export default function Works() {
           photo: "/works/1.jpg",
         },
         {
-          id: 1,
+          id: 2,
           title: "",
           description: "",
           photo: "/works/1.jpg",
         },
         {
-          id: 1,
+          id: 3,
           title: "",
           description: "",
           photo: "/works/1.jpg",
@@ -172,13 +172,13 @@ export default function Works() {
           photo: "/works/1.jpg",
         },
         {
-          id: 1,
+          id: 2,
           title: "",
           description: "",
           photo: "/works/1.jpg",
         },
         {
-          id: 1,
+          id: 3,
           title: "",
           description: "",
           photo: "/works/1.jpg",
@@ -193,28 +193,22 @@ export default function Works() {
       modalContent: [
         {
           id: 1,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          title: "",
+          description: "",
           photo: "/works/1.jpg",
         },
         {
           id: 2,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          title: "",
+          description: "",
           photo: "/works/1.jpg",
         },
         {
           id: 3,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
+          title: "",
+          description: "",
           photo: "/works/1.jpg",
         },
-        {
-          id: 4,
-          title: "data fetching",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, perspiciatis id vero odio distinctio accusantium iste nihil, modi facere in dolore",
-          photo: "/works/1.jpg",
-        }
 
       ]
     },

@@ -54,8 +54,17 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
         </div>
         <div className="flex flex-col">
 
-          <div className="w-[95%]"><p className="font-semibold text-lg text-cente text-black">Features for {props.work?.title} include </p></div>
-          <div className="h-[420px] py-2 px-1 overflow-y-scroll">
+          <div className="w-[95%]">
+            {
+              props.modalContent?.[0]?.title ? (
+                <p className="font-semibold text-lg text-cente text-black">
+            Features for {props.work?.title} include </p>
+              ) : (
+                <p className="font-semibold text-lg text-cente text-black">{props.work?.title}</p>
+              )
+            }
+            </div>
+          <div className={` ${props.modalContent?.[0]?.title === "" ? 'h-auto overflow-y-hidden' : 'overflow-y-scroll socrollabar h-[420px]' } py-2 px-1 `}>
             <div>
               <Slider {...settings} ref={sliderRef}>
                 {
@@ -63,7 +72,9 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
                     return (
                       <div className="flex flex-col" key={modal.id}>
                         <div className="text-center">
-                          <span className="px-2 py-1 inline-block rounded-lg text-center mb-2 bg-slate-50 text-lg">{modal.title}</span>
+                          {
+                            modal.title && <span className="px-2 py-1 inline-block rounded-lg text-center mb-2 bg-slate-50 text-lg">{modal.title}</span>
+                          }
                         </div>
                         <p className="px-3 mb-2">{modal.description}</p>
                         <Image

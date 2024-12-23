@@ -7,7 +7,7 @@ export default function TechStacks() {
 
       <div className="mx-auto max-w-screen-sm">
         <h1 className='md:text-3xl text-2xl font-bold text-center mb-1'>Tech Stacks</h1>
-        <p className="text-center mb-2">Here are a list of tools, libraries and platforms I have had precious experience on. I have rated my experience level out of five</p>
+        <p className="text-center mb-2">Here are a list of tools, libraries and platforms I have had precious experience on.</p>
       </div>
       <div className="mx-auto max-w-screen-xl p-4">
         <div className="grid md:grid-cols-3 grid-cols-2 gap-3">
