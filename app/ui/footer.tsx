@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image";
+import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 
 export default function Footer() {
@@ -26,7 +27,7 @@ export default function Footer() {
             </div>
             
             <div className="md:mt-0 mt-4 dark:text-slate-300">
-              Site made with Next.Js and tailwindcss, hosted on Vercel, full source code availble on github
+              Site made with Next.Js and tailwindcss, hosted on Vercel, full source code availble on <Link href={`https://github.com/amaniCoding/amani-portifolio`} className="inline-block p-1 mx-1 rounded-md bg-slate-200 text-black" target="_blank">github</Link> 
             </div>
             <div className="flex flex-row gap-x-4 items-center md:mt-0 mt-4">
               <SocialIcon url="https://web.facebook.com/ze.amanuel.ferede" target="_blank" style={{ width: '38px', height: '38px' }} />

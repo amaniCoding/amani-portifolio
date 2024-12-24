@@ -53,22 +53,22 @@ export default function Navbar() {
                 }>
                     <ul className="flex flex-col mt-4 border border-gray-100 dark:bg-black md:bg-white bg-orange-50 md:flex-row md:space-x-2 rtl:space-x-reverse md:mt-0 md:border-0 dark:md:bg-black">
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "home") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white" aria-current="page">Home</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "home") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white transition duration-500 ease-in-out" aria-current="page">Home</Link>
                         </li>
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "about-me") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white" aria-current="page">About Me</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "about-me") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white transition duration-500 ease-in-out" aria-current="page">About Me</Link>
                         </li>
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "works") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white" aria-current="page">Works</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "works") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white transition duration-500 ease-in-out" aria-current="page">Works</Link>
                         </li>
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "contact-me") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white" aria-current="page">Contact Me</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "contact-me") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white transition duration-500 ease-in-out" aria-current="page">Contact Me</Link>
                         </li>
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "skills") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white" aria-current="page">Skills</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "skills") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white transition duration-500 ease-in-out" aria-current="page">Skills</Link>
                         </li>
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "certificates") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white" aria-current="page">Certificates</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "certificates") }} className="block py-2 md:px-3 px-5 text-whit rounded md:hover:bg-orange-500 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white transition duration-500 ease-in-out" aria-current="page">Certificates</Link>
                         </li>
                     </ul>
                 </div>

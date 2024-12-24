@@ -47,7 +47,7 @@ export default function Certificates() {
                 />
               </Link>
 
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Fundamentals Of Programming</p>
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Fundamentals Of Programming</p>
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
@@ -85,7 +85,7 @@ export default function Certificates() {
                   alt="Screenshots of the dashboard project showing desktop version"
                 />
               </Link>
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Fundamentals Of Android Programming
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Fundamentals Of Android Programming
               </p>
             </div>
           </div>
@@ -124,7 +124,7 @@ export default function Certificates() {
                   alt="Screenshots of the dashboard project showing desktop version"
                 />
               </Link>
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Data Analysis Fundamentals</p>
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Data Analysis Fundamentals</p>
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
@@ -162,7 +162,7 @@ export default function Certificates() {
                   alt="Screenshots of the dashboard project showing desktop version"
                 />
               </Link>
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Degree Certificate</p>
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Degree Certificate</p>
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
@@ -200,7 +200,7 @@ export default function Certificates() {
                   alt="Screenshots of the dashboard project showing desktop version"
                 />
               </Link>
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400">Student Record</p>
+              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Student Record</p>
             </div>
           </div>
         </div>

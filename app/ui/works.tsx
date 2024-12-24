@@ -230,7 +230,7 @@ export default function Works() {
             {
               works.map(work => {
                 return (
-                  <div className="bg-white dark:bg-slate-800 dark:p-2 shadow-sm hover:shadow-lg dark:rounded-lg dark:hover:bg-slate-500 group md:rounded-lg rounded-sm" key={work.id}>
+                  <div className="bg-white dark:bg-slate-800 dark:p-2 shadow-sm hover:shadow-lg dark:rounded-lg dark:hover:bg-slate-600 group md:rounded-lg rounded-sm transition duration-500 ease-in-out" key={work.id}>
                     <div className="">
                       <Image
                         src={`${work.photo}`}
@@ -238,16 +238,14 @@ export default function Works() {
                         width={200}
                         height={200}
 
-                        className="block w-full h-full group-hover:brightness-75 transition-all duration-300 ease-in-out md:rounded-b-md"
+                        className="block w-full h-full group-hover:brightness-90 transition-all duration-300 ease-in-out"
                       />
                     </div>
 
-                    <div className="flex items-center justify-between space-x-5 md:px-5 pb-4 mt-1">
-                      <p className="grow dark:text-slate-300 ">{work.title}</p>
-                      <div className="md:flex hidden items-center justify-center p-2 bg-slate-white rounded-full w-10 h-10 cursor-pointer" title="Show more" onClick={() => {handelShowModal(work)}}>
-                        <EyeIcon className="h-10 w-10 dark:text-slate-300" color="black" />
-                      </div>
-                      <Link href={`${work.link}`} target="_blank" className="p-2 block dark:bg-slate-500 dark:text-slate-300 bg-orange-500 rounded-md text-white dark:group-hover:bg-slate-950 ">Visit</Link>
+                    <div className="flex items-center justify-between space-x-4 px-4 pb-3 mt-2">
+                      <p className="dark:text-slate-300 w-3/4">{work.title}</p>
+                        <EyeIcon className="w-11 h-11 rounded-full bg-slate-200 p-2 cursor-pointer stroke-black dark:bg-slate-500 dark:group-hover:bg-slate-950 dark:group-hover:stroke-white dark:text-white hover:bg-slate-300" onClick={() => {handelShowModal(work)}}  />
+                      <Link href={`${work.link}`} target="_blank" className="p-2 inline-block dark:bg-slate-500 dark:text-slate-300 bg-orange-500 rounded-md text-white dark:group-hover:bg-slate-950 hover:bg-orange-700 hover:text-white text-sm">Visit</Link>
                     </div>
                   </div>
                 )
