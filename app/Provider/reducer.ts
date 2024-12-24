@@ -12,7 +12,10 @@ export const reducer = (state: MyContext, action: MyAction): MyContext => {
           ...state, modal: {...state.modal, isOpen: action.payload.modal.isOpen, modalContent: action.payload.modal.modalContent, work: action.payload.modal.work}
         };
       case "SET_DARK":
-
+        const ISSERVER = typeof window === "undefined";
+        if(!ISSERVER) {
+          localStorage.setItem("isDark", JSON.stringify(action.payload));
+        }
         return {
           ...state, modal: {...state.modal, isDark: action.payload}
         } ;
