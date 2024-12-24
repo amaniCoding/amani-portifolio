@@ -1,8 +1,7 @@
 'use client'
-
+import { PhoneArrowDownLeftIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Link from 'next/link';
-
 export default function HeroImage() {
     const handelScroll = (e: React.MouseEvent<HTMLElement>) => {
         e.preventDefault();
@@ -23,7 +22,11 @@ export default function HeroImage() {
                             <p className='md:text-xl text-lg  md:text-white text-black w-full dark:text-slate-400'>A Full Stack Software Engineer ! <small> with a passion to create marvelous software and programming solutions to different real life problems. I have an intuitive desire to learn new technologies and how they work in depth.</small></p>
 
                             <div className='flex md:flex-col flex-row md:space-y-4 space-x-4'>
-                                <Link href={`#`} onClick={(e) => {handelScroll(e)}} className="md:grow-0 grow md:py-3 py-2 rounded-md px-1 md:w-52 w-32 md:bg-orange-600 bg-transparent md:text-white ring-orange-600 border-2 md:border-white border-black text-center block dark:bg-black dark:text-white dark:hover:bg-orange-600">Contact Me</Link>
+                                <Link href={`#`} onClick={(e) => {handelScroll(e)}} className=" md:py-3 md:block py-2 rounded-md px-1 md:w-52 w-32 md:bg-orange-600 bg-transparent md:text-white ring-orange-600 border-2 md:border-white border-black text-center hidden dark:bg-black dark:text-white dark:hover:bg-orange-600">Contact Me</Link>
+
+                                <Link href={`#`} onClick={(e) => {handelScroll(e)}} className='md:hidden block'>
+                                <PhoneArrowDownLeftIcon className='w-11 h-11 p-3 bg-orange-500 rounded-full stroke-slate-50 dark:bg-slate-600 dark:text-white'/>
+                                </Link>
                                 <div className='flex flex-row space-x-4 items-center'>
                                     <div className="flex items-center justify-center bg-slate-50 rounded-full w-10 h-10">
 
