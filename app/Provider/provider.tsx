@@ -10,12 +10,18 @@ export default function MyProvider({
 }: {
   children: React.ReactNode
 }) {
+  const ISSERVER = typeof window === "undefined";
+  const getItemFromLocalStorage = () => {
+    if(!ISSERVER) {
+      return localStorage.getItem("isDark");
+    }
+  }
   const initialState: MyContext = {
     modal: {
       isOpen: false,
       modalContent: [],
       work: undefined,
-      isDark: JSON.parse(localStorage.getItem("isDark") || '{}')
+      isDark: JSON.parse(getItemFromLocalStorage() || '{}')
     }
   }
 
