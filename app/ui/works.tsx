@@ -243,8 +243,8 @@ export default function Works() {
                     </div>
 
                     <div className="flex items-center justify-between space-x-4 px-4 pb-3 mt-2">
-                      <p className="dark:text-slate-300 w-3/4">{work.title}</p>
-                        <EyeIcon className="w-11 h-11 rounded-full bg-slate-200 p-2 cursor-pointer stroke-black dark:bg-slate-500 dark:group-hover:bg-slate-950 dark:group-hover:stroke-white dark:text-white hover:bg-slate-300" onClick={() => {handelShowModal(work)}}  />
+                      <p className="dark:text-slate-300 w-[70%]">{work.title}</p>
+                        <EyeIcon className="md:block hidden w-11 h-11 rounded-full bg-slate-200 p-2 cursor-pointer stroke-black dark:bg-slate-500 dark:group-hover:bg-slate-950 dark:group-hover:stroke-white dark:stroke-white hover:bg-slate-300 " onClick={() => {handelShowModal(work)}}  />
                       <Link href={`${work.link}`} target="_blank" className="p-2 inline-block dark:bg-slate-500 dark:text-slate-300 bg-orange-500 rounded-md text-white dark:group-hover:bg-slate-950 hover:bg-orange-700 hover:text-white text-sm">Visit</Link>
                     </div>
                   </div>
