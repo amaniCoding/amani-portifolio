@@ -26,7 +26,7 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>React</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300'>React</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>Next.js</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300'>Next.js</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>Node .js</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300'>Node .js</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>MongoDb / SQL</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300'>MongoDb / SQL</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>Javascript / Typescript</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300'>Javascript / Typescript</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function TechStacks() {
               />
             </div>
             <div>
-              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300 md:text-md text-sm'>Css / TailwindCss</p>
+              <p className='my-1 font-bold text-center text-slate-800 dark:text-slate-300'>Css / TailwindCss</p>
               <div className="w-[50] h-[2] mx-auto bg-orange-600 md:block hidden"></div>
             </div>
           </div>
