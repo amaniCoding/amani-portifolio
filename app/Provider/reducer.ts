@@ -6,11 +6,11 @@ export const reducer = (state: MyContext, action: MyAction): MyContext => {
     case 'SHOW_MODAL':
       return {
         ...state, modal: {...state.modal, isOpen: action.payload.modal.isOpen, modalContent: action.payload.modal.modalContent, work: action.payload.modal.work}
-      }
+      };
       case 'CLOSE_MODAL':
         return {
           ...state, modal: {...state.modal, isOpen: action.payload.modal.isOpen, modalContent: action.payload.modal.modalContent, work: action.payload.modal.work}
-        }
+        };
       case "SET_DARK":
         localStorage.setItem("isDark", JSON.stringify(action.payload));
         return {
