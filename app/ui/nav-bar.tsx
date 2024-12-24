@@ -51,7 +51,7 @@ export default function Navbar() {
                         height={0}
                         sizes='100vh'
 
-                        className="block md:w-14 md:h-14 w-10 h-10 rounded-full object-cover border-6 border-orange-700 p-1 bg-orange-600"
+                        className="block md:w-14 md:h-14 w-10 h-10 rounded-full object-cover border-6 border-orange-700 bg-orange-600"
                     />
                     <span className="self-center text-2xl whitespace-nowrap dark:text-white">Amanuel Ferede</span>
                 </Link>
