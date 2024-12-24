@@ -1,12 +1,13 @@
 'use client'
 
-import React, { useContext, useState } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import clsx from "clsx";
 import Image from 'next/image';
 import Link from "next/link";
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { AppContext } from "../Provider/provider";
 import { GlobalContextType } from "../types/types";
+import { log } from "console";
 
 export default function Navbar() {
     const { state, dispatch } = useContext(AppContext) as GlobalContextType;
@@ -24,9 +25,21 @@ export default function Navbar() {
         setShowCollapse(false);
     }
     const handelDarkMode = () => {
-        dispatch({ type: "SET_DARK", payload: true });
+        if(state.modal.isDark?.isDark) {
+            dispatch({ type: "SET_DARK", payload: {isDark: false} });
+        } else {
+            dispatch({ type: "SET_DARK", payload: {isDark: true} });
+        }
         document.body.classList.toggle("dark");
     }
+
+    useEffect(() => {
+        if(state.modal.isDark?.isDark) {
+            document.body.classList.add("dark");
+        } else {
+            document.body.classList.remove("dark");
+        }
+    }, [state.modal.isDark?.isDark])
     return (
         <nav className="bg-white shadow-md fixed w-full z-20 top-0 left-0 right-0 dark:bg-black">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:p-1 p-4 relative">
