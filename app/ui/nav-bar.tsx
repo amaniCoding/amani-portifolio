@@ -7,7 +7,7 @@ import Link from "next/link";
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { AppContext } from "../Provider/provider";
 import { GlobalContextType } from "../types/types";
-import { log } from "console";
+
 
 export default function Navbar() {
     const { state, dispatch } = useContext(AppContext) as GlobalContextType;
