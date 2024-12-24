@@ -45,26 +45,25 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
 
   return (
     <div className={`bg-black/50 fixed z-30 top-0 bottom-0 left-0 right-0 flex items-center justify-center ${props.isModalOpen ? ' block' : 'hidden'}`}>
-      <div className="p-5 max-w-screen-sm block bg-white relative rounded-md"
+      <div className="px-5 pt-5 pb-2 max-w-screen-sm block bg-white relative rounded-md dark:bg-gray-900"
       >
-        <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white" />
-        <ArrowRightIcon onClick={handelNext} className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2  hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white" />
-        <div className="h-10 w-10 flex items-center justify-center absolute top-2 right-3 cursor-pointer hover:bg-slate-300 p-2 rounded-full" onClick={handelCloseModal}>
-          <XMarkIcon />
-        </div>
+        <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white" />
+        <ArrowRightIcon onClick={handelNext} className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2  hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white" />
+        
+          <XMarkIcon className="w-10 h-10 absolute top-2 right-3 cursor-pointer hover:bg-slate-300 p-2 rounded-full stroke-black dark:stroke-white dark:bg-slate-800 dark:hover:bg-slate-500" onClick={handelCloseModal} />
         <div className="flex flex-col">
 
           <div className="w-[95%]">
             {
               props.modalContent?.[0]?.title ? (
-                <p className="font-semibold text-lg text-cente text-black">
+                <p className="font-semibold text-lg text-cente text-black dark:text-slate-300">
             Features for {props.work?.title} include </p>
               ) : (
-                <p className="font-semibold text-lg text-cente text-black">{props.work?.title}</p>
+                <p className="font-semibold text-lg text-cente text-black dark:text-slate-300">{props.work?.title}</p>
               )
             }
             </div>
-          <div className={` ${props.modalContent?.[0]?.title === "" ? 'h-auto overflow-y-hidden' : 'overflow-y-scroll socrollabar h-[420px]' } py-2 px-1 `}>
+          <div className={` ${props.modalContent?.[0]?.title === "" ? 'h-auto overflow-y-hidden' : 'overflow-y-scroll socrollabar h-[400px]' } py-2 px-1 `}>
             <div>
               <Slider {...settings} ref={sliderRef}>
                 {
@@ -73,10 +72,10 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
                       <div className="flex flex-col" key={modal.id}>
                         <div className="text-center">
                           {
-                            modal.title && <span className="px-2 py-1 inline-block rounded-lg text-center mb-2 bg-slate-50 text-lg">{modal.title}</span>
+                            modal.title && <span className="px-2 py-1 inline-block rounded-lg text-center mb-2 bg-slate-50 text-lg dark:bg-slate-300 dark:text-black">{modal.title}</span>
                           }
                         </div>
-                        <p className="px-3 mb-2">{modal.description}</p>
+                        <p className="px-3 mb-2 dark:text-slate-300">{modal.description}</p>
                         <Image
                           src={`${modal.photo}`}
                           alt={`${modal.title}`}
@@ -94,12 +93,12 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
             </div>
           </div>
 
-          <div className="p-2 w-full flex items-center justify-between" onClick={handelCloseModal}>
-            <button className="rounded-lg p-2 bg-slate-300 text-center text-black">Cancel</button>
+          <div className="p-2 w-full flex items-center justify-between mt-3" onClick={handelCloseModal}>
+            <button className="rounded-lg p-2 bg-slate-300 text-center text-black dark:bg-gray-600 dark:text-white text-sm dark:hover:bg-gray-300 dark:hover:text-black">Cancel</button>
             <Link
               href={`${props.work?.link}`}
               className="block"
-            ><button className=" p-2 bg-orange-500 text-center text-white rounded-lg ">Visit</button></Link>
+            ><button className=" p-2 bg-orange-500 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500">Visit</button></Link>
           </div>
         </div>
 
