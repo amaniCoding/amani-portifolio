@@ -70,32 +70,32 @@ export default function Works() {
     {
       id: 2,
       title: "Simple shopping cart application in next js frame work",
-      photo: "/works/1.jpg",
-      link: "https://next-starter-project-woad.vercel.app/",
+      photo: "/works/coming.jpg",
+      link: "#",
       modalContent: [
         {
           id: 1,
           title: "Styling",
           description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
-          photo: "/works/1-wo-1.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 2,
           title: "Database connectivity",
           description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
-          photo: "/works/1-wo-2.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
           description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
-          photo: "/works/1-wo-3.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 4,
           title: "Authonticaion",
           description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         }
 
       ]
@@ -103,32 +103,32 @@ export default function Works() {
     {
       id: 3,
       title: "Dev connect that connects developers across the world",
-      photo: "/works/1.jpg",
-      link: "https://next-starter-project-woad.vercel.app/",
+      photo: "/works/coming.jpg",
+      link: "#",
       modalContent: [
         {
           id: 1,
           title: "Styling",
           description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
-          photo: "/works/1-wo-1.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 2,
           title: "Database connectivity",
           description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
-          photo: "/works/1-wo-2.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
           description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
-          photo: "/works/1-wo-3.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 4,
           title: "Authonticaion",
           description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         }
 
       ]
@@ -136,78 +136,78 @@ export default function Works() {
     {
       id: 4,
       title: "Medico website : frontend only in tailwindcss and react",
-      photo: "/works/1.jpg",
-      link: "https://next-starter-project-woad.vercel.app/",
+      photo: "/works/coming.jpg",
+      link: "#",
       modalContent: [
         {
           id: 1,
           title: "",
           description: "",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 2,
           title: "",
           description: "",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 3,
           title: "",
           description: "",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         },
       ]
     },
     {
       id: 5,
       title: "Company website in tailwin css and next.js",
-      photo: "/works/1.jpg",
-      link: "https://next-starter-project-woad.vercel.app/",
+      photo: "/works/coming.jpg",
+      link: "#",
       modalContent: [
         {
           id: 1,
           title: "",
           description: "",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 2,
           title: "",
           description: "",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 3,
           title: "",
           description: "",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         },
       ]
     },
     {
       id: 6,
       title: "Simple shopping cart application in next js frame work",
-      photo: "/works/1.jpg",
-      link: "https://next-starter-project-woad.vercel.app/",
+      photo: "/works/coming.jpg",
+      link: "#",
       modalContent: [
         {
           id: 1,
           title: "",
           description: "",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 2,
           title: "",
           description: "",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         },
         {
           id: 3,
           title: "",
           description: "",
-          photo: "/works/1.jpg",
+          photo: "/works/coming.jpg",
         },
 
       ]
@@ -230,7 +230,7 @@ export default function Works() {
             {
               works.map(work => {
                 return (
-                  <div className="bg-white dark:bg-slate-800 dark:p-2 shadow-sm hover:shadow-lg dark:rounded-lg dark:hover:bg-slate-600 group md:rounded-lg rounded-sm transition duration-500 ease-in-out" key={work.id}>
+                  <div className="bg-white dark:bg-slate-800 dark:p-2 shadow-sm hover:shadow-lg dark:rounded-lg dark:hover:bg-slate-600 group md:rounded-lg rounded-sm transition duration-500 ease-in-out pt-3" key={work.id}>
                     <div className="">
                       <Image
                         src={`${work.photo}`}

@@ -47,8 +47,8 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
     <div className={`bg-black/50 fixed z-30 top-0 bottom-0 left-0 right-0 flex items-center justify-center ${props.isModalOpen ? ' block' : 'hidden'}`}>
       <div className="px-5 pt-5 pb-2 max-w-screen-sm block bg-white relative rounded-md dark:bg-gray-900"
       >
-        <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white" />
-        <ArrowRightIcon onClick={handelNext} className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2  hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white" />
+        <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white hover:-translate-x-1" />
+        <ArrowRightIcon onClick={handelNext} className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2  hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white hover:translate-x-1" />
         
           <XMarkIcon className="w-10 h-10 absolute top-2 right-3 cursor-pointer hover:bg-slate-300 p-2 rounded-full stroke-black dark:stroke-white dark:bg-slate-800 dark:hover:bg-slate-500" onClick={handelCloseModal} />
         <div className="flex flex-col">
