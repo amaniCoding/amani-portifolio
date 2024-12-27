@@ -11,6 +11,7 @@ export type Modalcontent = {
 export type MyWork = {
   id: number;
   title: string;
+  description: string;
   photo: string;
   link: string;
   modalContent: Modalcontent[];

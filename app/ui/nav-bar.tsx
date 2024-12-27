@@ -86,11 +86,11 @@ export default function Navbar() {
                     </ul>
                 </div>
                 {
-                    state.modal.isDark && <SunIcon color="orange" className="h-8 w-8 cursor-pointer" onClick={handelDarkMode}></SunIcon>
+                    state.modal.isDark?.isDark && (<SunIcon className="h-8 w-8 cursor-pointer stroke-orange-400" onClick={handelDarkMode}></SunIcon>)
                 }
 
                 {
-                    !state.modal.isDark && <MoonIcon className="h-8 w-8 cursor-pointer" onClick={handelDarkMode}></MoonIcon>
+                    state.modal.isDark?.isDark === false && (<MoonIcon className="h-8 w-8 cursor-pointer" onClick={handelDarkMode}></MoonIcon>)
                 }
                 <button onClick={handelCollapse} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-white" aria-controls="navbar-default" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>

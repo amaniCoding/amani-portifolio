@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function TechStacks() {
   return (
-    <section className="w-full py-2 dark:bg-black dark:p-0" id="skills">
+    <section className="w-full py-2 dark:bg-black dark:mt-0.5" id="skills">
 
       <div className="mx-auto max-w-screen-sm">
         <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-400'>Tech Stacks</h1>
