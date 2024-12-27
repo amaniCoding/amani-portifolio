@@ -98,6 +98,7 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
             <Link
               href={`${props.work?.link}`}
               className="block"
+              target="_blank"
             ><button className=" p-2 bg-orange-500 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500">Visit</button></Link>
           </div>
         </div>
