@@ -16,15 +16,12 @@ export type MyWork = {
   link: string;
   modalContent: Modalcontent[];
 }
-export type TheamType = {
-  isDark: boolean;
-}
 
 export type Modal = {
   isOpen: boolean;
   modalContent?: Modalcontent[];
   work: MyWork | undefined;
-  isDark?: TheamType
+  isDark?: boolean;
 }
 
 export type MyContext = {
@@ -39,4 +36,4 @@ export type GlobalContextType = {
 
 
 
-export type MyAction = | { type: 'SHOW_MODAL'; payload: MyContext } | { type: 'CLOSE_MODAL'; payload: MyContext } | {type: 'SET_DARK', payload: TheamType}
+export type MyAction = | { type: 'SHOW_MODAL'; payload: MyContext } | { type: 'CLOSE_MODAL'; payload: MyContext } | {type: 'SET_DARK', payload: boolean}

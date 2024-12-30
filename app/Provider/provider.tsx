@@ -21,7 +21,7 @@ export default function MyProvider({
       isOpen: false,
       modalContent: [],
       work: undefined,
-      isDark: JSON.parse(getItemFromLocalStorage() || '{}')
+      isDark: getItemFromLocalStorage() !== null ? JSON.parse(getItemFromLocalStorage() || "{}") : false
     }
   }
 
