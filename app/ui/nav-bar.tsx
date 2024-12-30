@@ -1,6 +1,6 @@
 'use client'
 
-import React, { ReactNode, useContext, useEffect, useState } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import clsx from "clsx";
 import Image from 'next/image';
 import Link from "next/link";
