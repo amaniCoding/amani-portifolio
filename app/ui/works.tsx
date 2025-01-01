@@ -201,7 +201,7 @@ export default function Works() {
       id: 6,
       title: "My Tube",
       description: 'Video and audio streaming application using Next.js framework and tailwind css for designing the website',
-      photo: "/works/wo-6/wall.jpg",
+      photo: "/works/wo-6/coming.jpg",
       link: "https://mytube.vercel.app/",
       modalContent: [
         {
