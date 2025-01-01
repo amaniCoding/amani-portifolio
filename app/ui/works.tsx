@@ -38,32 +38,32 @@ export default function Works() {
       id: 1,
       title: 'Next Js Starter Project',
       description: "nextjs-dashboard in next.js latest framework, from official website used tailwind css for styling",
-      photo: "/works/1.jpg",
+      photo: "/works/wo-1/wall.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "Styling",
           description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
-          photo: "/works/1-wo-1.jpg",
+          photo: "/works/wo-1/1.jpg",
         },
         {
           id: 2,
           title: "Database connectivity",
           description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
-          photo: "/works/1-wo-2.jpg",
+          photo: "/works/wo-1/2.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
           description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
-          photo: "/works/1-wo-3.jpg",
+          photo: "/works/wo-1/3.jpg",
         },
         {
           id: 4,
           title: "Authentication",
           description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
-          photo: "/works/1.jpg",
+          photo: "/works/wo-1/4.jpg",
         }
 
       ]
@@ -72,32 +72,32 @@ export default function Works() {
       id: 2,
       title: "NordStorm",
       description: 'Online fashion shopping application inspired by NordStorm official website used Next.Js and tailwind for styling',
-      photo: "/works/coming.jpg",
+      photo: "/works/wo-2/wall.jpg",
       link: "https://nordstorm.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "Styling",
           description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-2/1.jpg",
         },
         {
           id: 2,
           title: "Database connectivity",
           description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-2/2.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
           description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-2/3.jpg",
         },
         {
           id: 4,
           title: "Authentication",
           description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-2/4.jpg",
         }
 
       ]
@@ -106,32 +106,32 @@ export default function Works() {
       id: 3,
       title: "Dev-Connector",
       description: 'Social media like application which connects developers and share thier ideas made using latest Next.js framework and tailwindcss for styling',
-      photo: "/works/coming.jpg",
+      photo: "/works/wo-3/coming.jpg",
       link: "https://devconnector.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "Styling",
           description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-3/coming.jpg",
         },
         {
           id: 2,
           title: "Database connectivity",
           description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-3/coming.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
           description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-3/coming.jpg",
         },
         {
           id: 4,
           title: "Authentication",
           description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-3/coming.jpg",
         }
 
       ]
@@ -140,26 +140,26 @@ export default function Works() {
       id: 4,
       title: "Medical compnay website",
       description: 'Medico website : Frontend only using react and tailwind for styling',
-      photo: "/works/coming.jpg",
+      photo: "/works/wo-4/coming.jpg",
       link: "https://medico.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "",
           description: "",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-4/coming.jpg",
         },
         {
           id: 2,
           title: "",
           description: "",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-4/coming.jpg",
         },
         {
           id: 3,
           title: "",
           description: "",
-          photo: "/works/coming.jpg",
+          photo: "/works/wo-4/coming.jpg",
         },
       ]
     },
@@ -167,32 +167,32 @@ export default function Works() {
       id: 5,
       title: "News compnay website",
       description: 'Website made for news company using Next.js and tailwindcss for styling',
-      photo: "/works/coming.jpg",
+      photo: "/works/wo-5/coming.jpg",
       link: "https://abc.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "Styling",
           description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
-          photo: "/works/1-wo-1.jpg",
+          photo: "/works/wo-5/coming.jpg",
         },
         {
           id: 2,
           title: "Database connectivity",
           description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
-          photo: "/works/1-wo-2.jpg",
+          photo: "/works/wo-5/coming.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
           description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
-          photo: "/works/1-wo-3.jpg",
+          photo: "/works/wo-5/coming.jpg",
         },
         {
           id: 4,
           title: "Authentication",
           description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
-          photo: "/works/1.jpg",
+          photo: "/works/wo-5/coming.jpg",
         }
 
       ]
@@ -201,32 +201,32 @@ export default function Works() {
       id: 6,
       title: "My Tube",
       description: 'Video and audio streaming application using Next.js framework and tailwind css for designing the website',
-      photo: "/works/coming.jpg",
+      photo: "/works/wo-6/wall.jpg",
       link: "https://mytube.vercel.app/",
       modalContent: [
         {
           id: 1,
           title: "Styling",
           description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
-          photo: "/works/1-wo-1.jpg",
+          photo: "/works/wo-6/coming.jpg",
         },
         {
           id: 2,
           title: "Database connectivity",
           description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
-          photo: "/works/1-wo-2.jpg",
+          photo: "/works/wo-6/coming.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
           description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
-          photo: "/works/1-wo-3.jpg",
+          photo: "/works/wo-6/coming.jpg",
         },
         {
           id: 4,
           title: "Authentication",
           description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth",
-          photo: "/works/1.jpg",
+          photo: "/works/wo-6/coming.jpg",
         }
 
       ]
