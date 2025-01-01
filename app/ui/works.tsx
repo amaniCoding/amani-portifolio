@@ -73,7 +73,7 @@ export default function Works() {
       title: "NordStorm",
       description: 'Online fashion shopping application inspired by NordStorm official website used Next.Js and tailwind for styling',
       photo: "/works/wo-2/wall.jpg",
-      link: "https://nordstorm.vercel.app/",
+      link: "https://nordstorm-ten.vercel.app/",
       modalContent: [
         {
           id: 1,
