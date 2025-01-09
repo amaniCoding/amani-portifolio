@@ -167,7 +167,7 @@ export default function Works() {
       id: 5,
       title: "News compnay website",
       description: 'Website made for news company using Next.js and tailwindcss for styling',
-      photo: "/works/wo-5/wall.jpg",
+      photo: "/7.jpg",
       link: "https://abc.vercel.app/",
       modalContent: [
         {
@@ -201,7 +201,7 @@ export default function Works() {
       id: 6,
       title: "My Tube",
       description: 'Video and audio streaming application using Next.js framework and tailwind css for designing the website',
-      photo: "/works/wo-6/wall.jpg",
+      photo: "/7.jpg",
       link: "https://mytube.vercel.app/",
       modalContent: [
         {
