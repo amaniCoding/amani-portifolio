@@ -167,7 +167,7 @@ export default function Works() {
       id: 5,
       title: "News compnay website",
       description: 'Website made for news company using Next.js and tailwindcss for styling',
-      photo: "/wall.jpg",
+      photo: "/works/wo-5/wall.jpg",
       link: "https://my-news-app-rho.vercel.app/",
       modalContent: [
         {
