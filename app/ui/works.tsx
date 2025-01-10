@@ -266,7 +266,7 @@ export default function Works() {
                         <p className="dark:text-slate-300 font-bold md:text-lg">{work.title}</p>
                         <p className="dark:text-slate-300">{work.description}</p>
                       </div>
-                      <div className="absolute bottom-0 left-0 right-0">
+                      <div className="absolute bottom-0 left-0 right-0 p-3">
                         <div className="flex items-center justify-between">
                           <EyeIcon className="md:block hidden w-9 h-9 rounded-full bg-slate-200 p-2 cursor-pointer stroke-black dark:bg-slate-500 dark:group-hover:bg-slate-950 dark:group-hover:stroke-white dark:stroke-white hover:bg-slate-300 " onClick={() => { handelShowModal(work) }} />
                           <Link href={`${work.link}`} target="_blank" className="p-2 inline-block dark:bg-slate-500 dark:text-slate-300 bg-orange-500 rounded-md text-white dark:group-hover:bg-slate-950 hover:bg-orange-700 hover:text-white text-sm">Visit</Link>
