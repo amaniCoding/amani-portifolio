@@ -16,9 +16,9 @@ const backToTop = useRef<SVGSVGElement>(null);
   const handelScroll = () => {
     window.addEventListener("scroll", function() {
       if(this.document.body.scrollTop > 100 || this.document.documentElement.scrollTop > 100) {
-        backToTop.current!.style.display = "none";
-      } else {
         backToTop.current!.style.display = "block";
+      } else {
+        backToTop.current!.style.display = "none";
       }
     });
   }
