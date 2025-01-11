@@ -83,7 +83,7 @@ export default function HeroImage() {
                         width={0}
                         height={0}
                         sizes='100vh'
-                        className="w-9/12 h-auto md:block hidden bg-center absolute -top-10 -right-24 z-10 dark:brightness-75"
+                        className="w-9/12 h-auto md:block hidden bg-center absolute -top-6 -right-24 z-10 dark:brightness-75"
                     />
                 </div>
             </div>
