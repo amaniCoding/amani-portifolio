@@ -40,6 +40,7 @@ export default function Works() {
       description: "nextjs-dashboard in next.js latest framework, from official website used tailwind css for styling",
       photo: "/works/wo-1/wall.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
+      gitlink: 'https://github.com/amaniCoding/next-starter-project',
       modalContent: [
         {
           id: 1,
@@ -74,6 +75,7 @@ export default function Works() {
       description: 'Online fashion shopping application inspired by NordStorm official website used Next.Js and tailwind for styling',
       photo: "/works/wo-2/wall.jpg",
       link: "https://nordstorm-ten.vercel.app/",
+      gitlink: "https://github.com/amaniCoding/nord-storm",
       modalContent: [
         {
           id: 1,
@@ -108,6 +110,7 @@ export default function Works() {
       description: 'Social media like application which connects developers and share thier ideas made using latest Next.js framework and tailwindcss for styling',
       photo: "/works/wo-3/wall.jpg",
       link: "https://divconnector.vercel.app/",
+      gitlink: "https://github.com/amaniCoding/div-connector",
       modalContent: [
         {
           id: 1,
@@ -142,6 +145,7 @@ export default function Works() {
       description: 'Medico website : Frontend only using react and tailwind for styling',
       photo: "/works/wo-4/wall.jpg",
       link: "https://medico-alpha.vercel.app/",
+      gitlink: "https://github.com/amaniCoding/medico",
       modalContent: [
         {
           id: 1,
@@ -169,6 +173,7 @@ export default function Works() {
       description: 'Website made for news company using Next.js and tailwindcss for styling',
       photo: "/works/wo-5/wall.jpg",
       link: "https://my-news-app-rho.vercel.app/",
+      gitlink: "https://github.com/amaniCoding/my-news-app",
       modalContent: [
         {
           id: 1,
@@ -201,26 +206,27 @@ export default function Works() {
       id: 6,
       title: "My Tube",
       description: 'Video and audio streaming application using Next.js framework and tailwind css for designing the website',
-     photo: "/works/wo-5/wall.jpg",
+     photo: "/works/wo-6/wall.jpg",
       link: "https://mytube.vercel.app/",
+      gitlink: "https://github.com/amaniCoding/my-tube-app",
       modalContent: [
         {
           id: 1,
           title: "Styling",
           description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
-          photo: "/works/wo-6/1.jpg",
+          photo: "/works/wo-6/wall.jpg",
         },
         {
           id: 2,
           title: "Database connectivity",
           description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
-          photo: "/works/wo-6/2.jpg",
+          photo: "/works/wo-6/wall.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
           description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
-          photo: "/works/wo-6/3.jpg",
+          photo: "/works/wo-6/wall.jpg",
         },
         {
           id: 4,
@@ -266,10 +272,12 @@ export default function Works() {
                         <p className="dark:text-slate-300 font-bold md:text-lg">{work.title}</p>
                         <p className="dark:text-slate-300">{work.description}</p>
                       </div>
-                      <div className="mt-2">
-                        <div className="flex items-center justify-between">
+                      <div className="mt-2 grow">
+                        <div className="flex items-center space-x-4">
                           <EyeIcon className="md:block hidden w-9 h-9 rounded-full bg-slate-200 p-2 cursor-pointer stroke-black dark:bg-slate-500 dark:group-hover:bg-slate-950 dark:group-hover:stroke-white dark:stroke-white hover:bg-slate-300 " onClick={() => { handelShowModal(work) }} />
                           <Link href={`${work.link}`} target="_blank" className="p-2 inline-block dark:bg-slate-500 dark:text-slate-300 bg-orange-500 rounded-md text-white dark:group-hover:bg-slate-950 hover:bg-orange-700 hover:text-white text-sm">Visit</Link>
+
+                          <Link href={`${work.gitlink}`} target="_blank" className="p-2 inline-block dark:bg-slate-500 dark:text-slate-300 bg-gray-800 rounded-md text-white dark:group-hover:bg-slate-950 hover:bg-gray-700 hover:text-white text-sm">Github code</Link>
                         </div>
                       </div>
                     </div>

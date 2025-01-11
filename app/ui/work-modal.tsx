@@ -93,13 +93,19 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
             </div>
           </div>
 
-          <div className="p-2 w-full flex items-center justify-between mt-3" onClick={handelCloseModal}>
+          <div className="p-2 w-full flex items-center space-x-4 mt-3" onClick={handelCloseModal}>
             <button className="rounded-lg p-2 bg-slate-300 text-center text-black dark:bg-gray-600 dark:text-white text-sm dark:hover:bg-gray-300 dark:hover:text-black">Cancel</button>
             <Link
               href={`${props.work?.link}`}
               className="block"
               target="_blank"
             ><button className=" p-2 bg-orange-500 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500">Visit</button></Link>
+
+<Link
+              href={`${props.work?.gitlink}`}
+              className="block"
+              target="_blank"
+            ><button className=" p-2 bg-gray-800 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500">Github code</button></Link>
           </div>
         </div>
 
