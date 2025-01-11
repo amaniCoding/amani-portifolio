@@ -78,7 +78,7 @@ export default function HeroImage() {
                         />
                     </div>
                     <Image
-                        src="/9.jpg"
+                        src="/99.png"
                         alt="next starter project"
                         width={0}
                         height={0}
