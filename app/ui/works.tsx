@@ -214,19 +214,19 @@ export default function Works() {
           id: 1,
           title: "Styling",
           description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
-          photo: "/works/wo-6/wall.jpg",
+          photo: "/works/wo-6/1.jpg",
         },
         {
           id: 2,
           title: "Database connectivity",
           description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server",
-          photo: "/works/wo-6/wall.jpg",
+          photo: "/works/wo-6/2.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
           description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI",
-          photo: "/works/wo-6/wall.jpg",
+          photo: "/works/wo-6/3.jpg",
         },
         {
           id: 4,
