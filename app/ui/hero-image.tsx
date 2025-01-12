@@ -1,8 +1,7 @@
 'use client'
-import { PhoneArrowDownLeftIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaPhone, FaTelegram } from 'react-icons/fa';
+
 export default function HeroImage() {
     const handelScroll = (e: React.MouseEvent<HTMLElement>) => {
         e.preventDefault();
