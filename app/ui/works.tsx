@@ -207,7 +207,7 @@ export default function Works() {
       title: "My Tube",
       description: 'Video and audio streaming application using Next.js framework and tailwind css for designing the website',
      photo: "/works/wo-6/wall.jpg",
-      link: "https://mytube.vercel.app/",
+      link: "https://mytube-cyan-theta.vercel.app/",
       gitlink: "https://github.com/amaniCoding/my-tube-app",
       modalContent: [
         {

@@ -49,7 +49,7 @@ export default function Navbar() {
     
     return (
         <nav className="bg-white shadow-md fixed w-full z-20 top-0 left-0 right-0 dark:bg-black">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:p-1 p-4 relative">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 relative">
                 <Link href={`#`} onClick={(e) => { hadelScroll(e, "home") }} className="flex items-center space-x-3">
                     <Image
                         src="/7.png"
@@ -58,7 +58,7 @@ export default function Navbar() {
                         height={0}
                         sizes='100vh'
 
-                        className="block md:w-14 md:h-14 w-10 h-10 rounded-full object-cover border-6 border-orange-700 bg-orange-600"
+                        className="block w-12 h-12 rounded-full object-cover border-6 border-orange-700 bg-orange-600"
                     />
                     <span className="self-center md:text-2xl text-lg whitespace-nowrap dark:text-white">Amanuel Ferede</span>
                 </Link>
