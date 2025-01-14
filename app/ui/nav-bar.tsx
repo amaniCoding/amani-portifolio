@@ -48,7 +48,7 @@ export default function Navbar() {
 
     
     return (
-        <nav className="bg-white shadow-md fixed w-full z-20 top-0 left-0 right-0 dark:bg-black">
+        <nav className="bg-white shadow-md fixed w-full z-20 top-0 left-0 right-0 dark:bg-black px-5">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 relative">
                 <Link href={`#`} onClick={(e) => { hadelScroll(e, "home") }} className="flex items-center space-x-3">
                     <Image
@@ -64,7 +64,7 @@ export default function Navbar() {
                 </Link>
 
                 <div className={
-                    clsx("w-full md:block md:w-auto md:static absolute top-14 right-0 left-0 z-10 dark:bg-black",
+                    clsx("w-full md:block md:w-auto md:static absolute top-12 right-0 left-0 z-10 dark:bg-black",
                         {
                             "hidden": showCollapse === false
                         }

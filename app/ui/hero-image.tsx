@@ -12,17 +12,19 @@ export default function HeroImage() {
         });
     }
     return (
-        <section className="w-full dark:bg-gray-900 md:bg-slate-600 md:mt-[65px] pt-[88px] md:bg-[url('/tt.png')] md:h-screen md:bg-no-repeat relative dark:brightness-75 md:bg-cover" id='home'>
-            <div className='md:hidden flex items-center justify-center'>
+        <section className="w-full dark:bg-gray-900 md:bg-slate-600 md:mt-[64px] mt-[80px]  md:bg-[url('/tt.png')] md:h-screen md:bg-no-repeat relative dark:brightness-75 md:bg-cover" id='home'>
+            <div className='md:hidden flex items-center justify-center space-x-5'>
                 <Image
                     src={`/99.png`}
                     width={0}
                     height={0}
                     sizes='100vh'
                     alt='Amanuel Ferede'
-                    className='w-36 h-36 rounded-full border-2 border-orange-700 object-cover'
+                    className='w-20 h-20 rounded-full border-2 border-orange-700 object-cover'
                 />
+                
             </div>
+            <p className='md:hidden block text-center font-bold p-2 '>Amanuel Ferede</p>
             <div className='md:block hidden w-[32%] absolute right-2 top-32'>
                 <p className='text-4xl text-orange-600 font-bold'>{'"'} Everything is perfect and there is always room for improvement. {'"'}</p>
             </div>
@@ -40,7 +42,7 @@ export default function HeroImage() {
                 </div>
 
             </div>
-            <div className='md:hidden flex space-x-4 items-center justify-center py-3'>
+            <div className='md:hidden flex space-x-4 items-center justify-center py-1'>
                 <span className='p-2  md:text-white dark:text-white text-black'>+251918634810</span>
                 <Link href={`https://drive.google.com/file/d/1ohIyY6rr44uTVCIWJbe5SyhXh-8fQBGN/view?usp=drive_link`} target='_blank' className='p-2  md:text-white text-black dark:text-white text-nowrap'>My CV</Link>
             </div>
