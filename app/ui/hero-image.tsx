@@ -27,12 +27,12 @@ export default function HeroImage() {
             <p className='md:hidden block text-center font-bold dark:text-white'>Amanuel Ferede</p>
             <p className='md:hidden block text-center  dark:text-white text-sm'>Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
             <div className='md:block hidden w-[32%] absolute right-2 top-32'>
-                <p className='text-4xl text-orange-600 font-bold'>{'"'} Everything is perfect and there is always room for improvement. {'"'}</p>
+                <p className='text-4xl text-orange-300 font-bold'>{'"'} Everything is perfect and there is always room for improvement. {'"'}</p>
             </div>
             <div className='md:block hidden w-[45%] absolute left-5 top-32'>
                 <div className='w-full flex flex-col space-y-4 p-4'>
                     <h1 className='md:text-3xl text-2xl font-bold md:text-white text-black md:block hidden dark:text-white'>Hi there, I am Amanuel 👋</h1>
-                    <p className="md:text-xl text-lg  text-orange-600 w-full dark:text-orange-700">Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
+                    <p className="md:text-xl text-lg  text-orange-300 w-full dark:text-orange-100">Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
                     <p className='md:text-xl text-lg  md:text-white text-black w-full dark:text-slate-400'> with a passion to create marvelous software and programming solutions to different real life problems. But i am not perfect ! 😁</p>
                     
                     <div className='my-3'>
