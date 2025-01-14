@@ -15,7 +15,7 @@ const backToTop = useRef<SVGSVGElement>(null);
 
   const handelScroll = () => {
     window.addEventListener("scroll", function() {
-      if(this.document.body.scrollTop > 100 || this.document.documentElement.scrollTop > 100) {
+      if(this.document.body.scrollTop > 700 || this.document.documentElement.scrollTop > 700) {
         backToTop.current!.style.display = "block";
       } else {
         backToTop.current!.style.display = "none";
@@ -31,6 +31,6 @@ const backToTop = useRef<SVGSVGElement>(null);
   },[])
   return (
 
-      <ArrowUpIcon className="w-11 h-11 rounded-full bg-orange-600 text-white p-3 fixed md:bottom-14 md:right-14 bottom-11 right-11 cursor-pointer animate-bounce stroke-white dark:bg-slate-900 dark:text-white" onClick={(e) => { hadelScroll(e, 'home') }} ref={backToTop} />
+      <ArrowUpIcon className="w-11 h-11 rounded-full bg-orange-600 text-white p-3 fixed md:bottom-14 md:right-14 bottom-11 right-11 cursor-pointer stroke-white dark:bg-slate-900 dark:text-white" onClick={(e) => { hadelScroll(e, 'home') }} ref={backToTop} />
   )
 }

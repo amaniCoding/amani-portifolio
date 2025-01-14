@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-row md:flex-nowrap flex-wrap gap-x-4 md:items-center md:justify-center">
           <div className="w-16 h-16 felx items-center justify-center">
             <Image
-              src="/7.png"
+              src="/99.png"
               alt="Amanuel Ferede"
               width={0}
               height={0}
