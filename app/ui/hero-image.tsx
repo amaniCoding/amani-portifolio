@@ -22,12 +22,12 @@ export default function HeroImage() {
                     alt='Amanuel Ferede'
                     className='w-24 h-24 rounded-full border-2 border-orange-700 object-cover dark:border-white'
                 />
-                <p className='text-lg md:hidden block text-orange-600 font-bold dark:text-slate-300'>{'"'} Everything is perfect and there is always room for improvement. {'"'}</p>
+                <p className='text-lg md:hidden block text-orange-600 font-bold dark:text-slate-300'>{'"'} Perfection is impossible; just strive to do your best. {'"'}</p>
             </div>
             <p className='md:hidden block text-center font-bold dark:text-white'>Amanuel Ferede</p>
             <p className='md:hidden block text-center  dark:text-white text-sm'>Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
             <div className='md:block hidden w-[32%] absolute right-2 top-32'>
-                <p className='text-4xl text-orange-300 font-bold'>{'"'} Everything is perfect and there is always room for improvement. {'"'}</p>
+                <p className='text-4xl text-orange-300 font-bold'>{'"'} Perfection is impossible; just strive to do your best. {'"'}</p>
             </div>
             <div className='md:block hidden w-[45%] absolute left-5 top-32'>
                 <div className='w-full flex flex-col space-y-4 p-4'>
