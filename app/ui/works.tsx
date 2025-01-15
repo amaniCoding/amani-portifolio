@@ -63,7 +63,7 @@ export default function Works() {
         {
           id: 4,
           title: "Authentication",
-          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, of course i will work it soon as long as there is time and as long as i can.",
+          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use, uses nextAth, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-1/4.jpg",
         }
 
@@ -86,19 +86,19 @@ export default function Works() {
         {
           id: 2,
           title: "Database connectivity",
-          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, of course i will work it soon as long as there is time and as long as i can.",
+          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-2/2.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
-          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, of course i will work it soon as long as there is time and as long as i can.",
+          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-2/3.jpg",
         },
         {
           id: 4,
           title: "Authentication",
-          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, of course i will work it soon as long as there is time and as long as i can.",
+          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-2/4.jpg",
         }
 
@@ -121,19 +121,19 @@ export default function Works() {
         {
           id: 2,
           title: "Database connectivity",
-          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, of course i will work it soon as long as there is time and as long as i can.",
+          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-3/2.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
-          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, of course i will work it soon as long as there is time and as long as i can.",
+          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-3/3.jpg",
         },
         {
           id: 4,
           title: "Authentication",
-          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, of course i will work it soon as long as there is time and as long as i can.",
+          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-3/4.jpg",
         }
 
@@ -184,19 +184,19 @@ export default function Works() {
         {
           id: 2,
           title: "Database connectivity",
-          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, of course i will work it soon as long as there is time and as long as i can.",
+          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-5/2.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
-          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, of course i will work it soon as long as there is time and as long as i can.",
+          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-5/3.jpg",
         },
         {
           id: 4,
           title: "Authentication",
-          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, of course i will work it soon as long as there is time and as long as i can.",
+          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-5/4.jpg",
         }
 
@@ -219,19 +219,19 @@ export default function Works() {
         {
           id: 2,
           title: "Database connectivity",
-          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, of course i will work it soon as long as there is time and as long as i can.",
+          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-6/2.jpg",
         },
         {
           id: 3,
           title: "Data fetching",
-          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, of course i will work it soon as long as there is time and as long as i can.",
+          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-6/3.jpg",
         },
         {
           id: 4,
           title: "Authentication",
-          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, of course i will work it soon as long as there is time and as long as i can.",
+          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-6/4.jpg",
         }
 
