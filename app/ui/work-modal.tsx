@@ -100,12 +100,6 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
               className="block"
               target="_blank"
             ><button className=" p-2 bg-orange-500 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500">Visit</button></Link>
-
-<Link
-              href={`${props.work?.gitlink}`}
-              className="block"
-              target="_blank"
-            ><button className=" p-2 bg-gray-800 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500">Github code</button></Link>
           </div>
         </div>
 

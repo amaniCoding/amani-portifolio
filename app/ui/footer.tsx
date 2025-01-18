@@ -27,16 +27,9 @@ export default function Footer() {
             </div>
             
             <div className="md:mt-0 mt-4 dark:text-slate-300">
-              Site made with Next.Js and tailwindcss, hosted on Vercel, full source code availble on <Link href={`https://github.com/amaniCoding/amani-portifolio`} className="inline-block p-1 mx-1 rounded-md bg-slate-200 text-black" target="_blank">github</Link> 
+              Site made with Next.Js and tailwindcss, hosted on Vercel.
             </div>
-            <div className="flex flex-row gap-x-4 items-center md:mt-0 mt-4">
-              <SocialIcon url="https://web.facebook.com/ze.amanuel.ferede" target="_blank" style={{ width: '38px', height: '38px' }} />
-              <SocialIcon url="https://github.com/amaniCoding" target="_blank" style={{ width: '38px', height: '38px' }} />
-              <SocialIcon url="https://x.com/zaamanuelf" style={{ width: '38px', height: '38px' }} />
-              <SocialIcon url="https://www.linkedin.com/in/amanuel-ferede-153545342/" target="_blank" style={{ width: '38px', height: '38px' }} />
-              <SocialIcon url="https://www.instagram.com/ze.amanuel.f/" style={{ width: '38px', height: '38px' }} />
-
-            </div>
+            
           </div>
         </div>
       </div>

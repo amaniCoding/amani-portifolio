@@ -81,9 +81,7 @@ export default function Navbar() {
                         <li>
                             <Link href="#" onClick={(e) => { hadelScroll(e, "works") }} className="block py-2 md:px-3 px-5 text-black rounded-md md:hover:bg-orange-700 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white transition duration-500 ease-in-out" aria-current="page">Works</Link>
                         </li>
-                        <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "contact-me") }} className="block py-2 md:px-3 px-5 text-black rounded-md md:hover:bg-orange-700 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white transition duration-500 ease-in-out" aria-current="page">Contact Me</Link>
-                        </li>
+                       
                         <li>
                             <Link href="#" onClick={(e) => { hadelScroll(e, "skills") }} className="block py-2 md:px-3 px-5 text-black rounded-md md:hover:bg-orange-700 dark:hover:bg-gray-600 md:hover:text-white hover:bg-slate-200 hover:text-black dark:text-white transition duration-500 ease-in-out" aria-current="page">Skills</Link>
                         </li>

@@ -3,14 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function HeroImage() {
-    const handelScroll = (e: React.MouseEvent<HTMLElement>) => {
-        e.preventDefault();
-        window.scrollTo({
-            // @ts-expect-error: Object is possibly 'null'.
-            top: document.querySelector("#contact-me").offsetTop - 72,
-            behavior: "smooth"
-        });
-    }
     return (
         <section className="w-full dark:bg-gray-900 md:bg-slate-600 md:mt-[64px] mt-[64px] md:pt-0 pt-5 md:bg-[url('/tt.png')] md:h-screen md:bg-no-repeat relative dark:brightness-75 md:bg-cover" id='home'>
             <div className='md:hidden flex items-center justify-center space-x-3 px-3'>
@@ -35,9 +27,7 @@ export default function HeroImage() {
                     <p className="md:text-xl text-lg  text-orange-300 w-full dark:text-orange-100">Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
                     <p className='md:text-xl text-lg  md:text-white text-black w-full dark:text-slate-400'> with a passion to create marvelous software and programming solutions to different real life problems. But i am not perfect ! 😁</p>
                     
-                    <div className='my-3'>
-                        <Link href={`#`} onClick={(e) => { handelScroll(e) }} className=" py-3 block rounded-md px-3 w-56 bg-orange-600 text-white text-center dark:bg-black dark:text-white dark:hover:bg-slate-600 dark:hover:text-white hover:bg-orange-400">Contact Me</Link>
-                    </div>
+                    
                     <div className='flex space-x-4 items-center'>
                         <span className='p-2  md:text-white dark:text-white text-black'>+251918634810</span>
                         <Link href={`https://drive.google.com/file/d/1ohIyY6rr44uTVCIWJbe5SyhXh-8fQBGN/view?usp=drive_link`} target='_blank' className='p-2  md:text-white text-black dark:text-white text-nowrap'>My CV</Link>

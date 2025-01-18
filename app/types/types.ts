@@ -14,7 +14,6 @@ export type MyWork = {
   description: string;
   photo: string;
   link: string;
-  gitlink: string;
   modalContent: Modalcontent[];
 }
 

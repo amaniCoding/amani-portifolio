@@ -40,7 +40,6 @@ export default function Works() {
       description: "nextjs-dashboard in next.js latest framework, from official website used tailwind css for styling",
       photo: "/works/wo-1/wall.jpg",
       link: "https://next-starter-project-woad.vercel.app/",
-      gitlink: 'https://github.com/amaniCoding/next-starter-project',
       modalContent: [
         {
           id: 1,
@@ -75,7 +74,7 @@ export default function Works() {
       description: 'Online fashion shopping application inspired by NordStorm official website used Next.Js and tailwind for styling',
       photo: "/works/wo-2/wall.jpg",
       link: "https://nordstorm-ten.vercel.app/",
-      gitlink: "https://github.com/amaniCoding/nord-storm",
+      
       modalContent: [
         {
           id: 1,
@@ -110,7 +109,7 @@ export default function Works() {
       description: 'Social media like application which connects developers and share thier ideas made using latest Next.js framework and tailwindcss for styling',
       photo: "/works/wo-3/wall.jpg",
       link: "https://divconnector.vercel.app/",
-      gitlink: "https://github.com/amaniCoding/div-connector",
+      
       modalContent: [
         {
           id: 1,
@@ -145,7 +144,7 @@ export default function Works() {
       description: 'Medico website : Frontend only using react and tailwind for styling',
       photo: "/works/wo-4/wall.jpg",
       link: "https://medico-alpha.vercel.app/",
-      gitlink: "https://github.com/amaniCoding/medico",
+      
       modalContent: [
         {
           id: 1,
@@ -173,7 +172,7 @@ export default function Works() {
       description: 'Website made for news company using Next.js and tailwindcss for styling',
       photo: "/works/wo-5/wall.jpg",
       link: "https://my-news-app-rho.vercel.app/",
-      gitlink: "https://github.com/amaniCoding/my-news-app",
+      
       modalContent: [
         {
           id: 1,
@@ -208,7 +207,7 @@ export default function Works() {
       description: 'Video and audio streaming application using Next.js framework and tailwind css for designing the website',
      photo: "/works/wo-6/wall.jpg",
       link: "https://mytube-cyan-theta.vercel.app/",
-      gitlink: "https://github.com/amaniCoding/my-tube-app",
+      
       modalContent: [
         {
           id: 1,
@@ -276,8 +275,6 @@ export default function Works() {
                         <div className="flex items-center space-x-4">
                           <EyeIcon className="md:block hidden w-9 h-9 rounded-full bg-slate-200 p-2 cursor-pointer stroke-black dark:bg-slate-500 dark:group-hover:bg-slate-950 dark:group-hover:stroke-white dark:stroke-white hover:bg-slate-300 " onClick={() => { handelShowModal(work) }} />
                           <Link href={`${work.link}`} target="_blank" className="p-2 inline-block dark:bg-slate-500 dark:text-slate-300 bg-orange-500 rounded-md text-white dark:group-hover:bg-slate-950 hover:bg-orange-700 hover:text-white text-sm">Visit</Link>
-
-                          <Link href={`${work.gitlink}`} target="_blank" className="p-2 inline-block dark:bg-slate-500 dark:text-slate-300 bg-gray-800 rounded-md text-white dark:group-hover:bg-slate-950 hover:bg-gray-700 hover:text-white text-sm">Github code</Link>
                         </div>
                       </div>
                     </div>
