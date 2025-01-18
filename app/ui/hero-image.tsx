@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 export default function HeroImage() {
     return (
-        <section className="w-full dark:bg-gray-900 md:bg-slate-600 md:mt-[64px] mt-[64px] md:pt-0 pt-5 md:bg-[url('/tt.png')] md:h-screen md:bg-no-repeat relative dark:brightness-75 md:bg-cover" id='home'>
+        <section className="w-full dark:bg-gray-900 md:bg-slate-600 md:mt-[64px] mt-[64px] md:pt-0 pt-5 md:bg-[url('/99.jpg')] md:h-screen md:bg-no-repeat relative dark:brightness-75 md:bg-cover" id='home'>
             <div className='md:hidden flex items-center justify-center space-x-3 px-3'>
                 <Image
-                    src={`/99.png`}
+                    src={`/99.jpg`}
                     width={0}
                     height={0}
                     sizes='100vh'

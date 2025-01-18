@@ -52,7 +52,7 @@ export default function Navbar() {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 relative">
                 <Link href={`#`} onClick={(e) => { hadelScroll(e, "home") }} className="flex items-center space-x-3 md:pl-0 pl-5">
                     <Image
-                        src="/99.png"
+                        src="/99.jpg"
                         alt="Amanuel Ferede"
                         width={0}
                         height={0}
