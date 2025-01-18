@@ -30,14 +30,14 @@ export default function HeroImage() {
                     
                     <div className='flex space-x-4 items-center'>
                         <span className='p-2  md:text-white dark:text-white text-black'>+251918634810</span>
-                        <Link href={`https://drive.google.com/file/d/1ohIyY6rr44uTVCIWJbe5SyhXh-8fQBGN/view?usp=drive_link`} target='_blank' className='p-2  md:text-white text-black dark:text-white text-nowrap'>My CV</Link>
+                        <Link href={`https://drive.google.com/file/d/11Zg7h75GUix9JXe8XI-KyCV-RAjaWb2I/view?usp=drive_link`} target='_blank' className='p-2  md:text-white text-black dark:text-white text-nowrap'>My CV</Link>
                     </div>
                 </div>
 
             </div>
             <div className='md:hidden flex space-x-4 items-center justify-center py-1 dark:border-b-[1.7px] dark:border-b-gray-50'>
                 <span className='p-2  md:text-white dark:text-white text-black'>+251918634810</span>
-                <Link href={`https://drive.google.com/file/d/1ohIyY6rr44uTVCIWJbe5SyhXh-8fQBGN/view?usp=drive_link`} target='_blank' className='p-2  md:text-white text-black dark:text-white text-nowrap'>My CV</Link>
+                <Link href={`https://drive.google.com/file/d/11Zg7h75GUix9JXe8XI-KyCV-RAjaWb2I/view?usp=drive_link`} target='_blank' className='p-2  md:text-white text-black dark:text-white text-nowrap'>My CV</Link>
             </div>
             
         </section>
