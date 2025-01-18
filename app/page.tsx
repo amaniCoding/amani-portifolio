@@ -13,7 +13,6 @@ import Works from "./ui/works";
 export default function Home() {
   return (
     <main className="relative">
-      <Navbar />
       <HeroImage />
       <AboutMe/>
       <Works/>
