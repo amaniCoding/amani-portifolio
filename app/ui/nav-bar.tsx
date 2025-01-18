@@ -2,7 +2,6 @@
 
 import { useContext, useEffect, useState } from "react"
 import clsx from "clsx";
-import Image from 'next/image';
 import Link from "next/link";
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { AppContext } from "../Provider/provider";
