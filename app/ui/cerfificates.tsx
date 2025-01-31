@@ -10,7 +10,7 @@ export default function Certificates() {
         <h1 className='md:text-xl text-lg font-bold text-center my-1 dark:text-slate-400'>Certificates</h1>
       </div>
       <div className="mx-auto max-w-screen-lg">
-        <div className="grid md:grid-cols-5 grid-cols-2 gap-3">
+        <div className="grid md:grid-cols-5 grid-cols-3 gap-3">
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
             <div className="absolute top-0 bottom-0 right-0 left-0 z-40 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
               <Link

@@ -14,8 +14,8 @@ export default function Home() {
     <main className="relative">
       <HeroImage />
       <AboutMe/>
-      <Works/>
       <TechStacks/>
+      <Works/>
       <Certificates/>
       <Footer/>
       <BackToTop/>

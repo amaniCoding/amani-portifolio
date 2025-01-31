@@ -241,7 +241,7 @@ export default function Works() {
   ]
   return (
     <>
-      <section className="w-full py-2 bg-slate-100 dark:bg-black" id="works">
+      <section className="w-full py-2 bg-slate-100 dark:bg-slate-950" id="works">
         <div className="mx-auto max-w-screen-sm">
 
           <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-300'>Works</h1>

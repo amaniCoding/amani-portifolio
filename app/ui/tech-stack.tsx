@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function TechStacks() {
   return (
-    <section className="w-full py-2 dark:bg-black dark:mt-0.5" id="skills">
+    <section className="w-full py-2 dark:bg-slate-900" id="skills">
 
       <div className="mx-auto max-w-screen-sm">
         <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-400'>Tech Stacks</h1>
         <p className="text-center mb-2 dark:text-slate-200 px-3">Here are a list of tools, libraries and platforms I have had precious experience on.</p>
       </div>
       <div className="mx-auto max-w-screen-xl">
-        <div className="grid md:grid-cols-3 grid-cols-2 md:gap-3 gap-1">
+        <div className="grid md:grid-cols-6 grid-cols-3 md:gap-3 gap-1">
 
           <div className="flex flex-col items-center justify-center md:bg-gray-50 md:hover:drop-shadow-md transition duration-200 ease-out md:rounded-md p-5 dark:bg-gray-900">
             <div className="flex items-center justify-center bg-slate-100 rounded-full w-20 h-20 dark:bg-gray-600 dark:p-4">

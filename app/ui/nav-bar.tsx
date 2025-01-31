@@ -1,6 +1,6 @@
 'use client'
 
-import { useContext, useEffect, useState } from "react"
+import { useContext, useEffect, useRef, useState } from "react"
 import clsx from "clsx";
 import Link from "next/link";
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
@@ -11,8 +11,8 @@ import { GlobalContextType } from "../types/types";
 export default function Navbar() {
     const { state, dispatch } = useContext(AppContext) as GlobalContextType;
     const [showCollapse, setShowCollapse] = useState(false);
-
-
+    const navbar = useRef<HTMLElement>(null);
+    const [isNavBarSticky, setisNavBarSticky] = useState<boolean>(false);
     const handelCollapse = () => {
         setShowCollapse(!showCollapse);
     }
@@ -45,13 +45,28 @@ export default function Navbar() {
 
     }, [state.modal?.isDark])
 
+    const handelScrollnavbar = () => {
+        window.addEventListener("scroll", function () {
+            if (this.document.body.scrollTop > 200 || this.document.documentElement.scrollTop > 200) {
+                setisNavBarSticky(true);
+            } else {
+                setisNavBarSticky(false);
+            }
+        });
+    }
 
+    useEffect(() => {
+        handelScrollnavbar();
+        return () => {
+            handelScrollnavbar();
+        }
+    }, [])
     return (
-        <nav className="md:border-b-2 md:border-b-orange-300">
+        <nav className={`md:border-b-2 md:border-b-orange-300 ${isNavBarSticky ? 'fixed top-0 left-0 right-0 z-20 bg-white dark:fixed dark:top-0 dark:left-0 dark:right-0 dark:z-20 dark:bg-black/70' : 'static dark:static'}`} ref={navbar}>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 relative z-50">
                 <Link href={`#`} onClick={(e) => { hadelScroll(e, "home") }} className="flex items-center space-x-3 md:pl-0 pl-5">
 
-                    <span className="self-center md:text-2xl text-lg whitespace-nowrap dark:text-white md:text-white text-black">Amanuel Ferede</span>
+                    <span className={`self-center md:text-2xl text-lg whitespace-nowrap dark:text-white ${isNavBarSticky ? 'text-black' : 'md:text-white text-black'}`}>Amanuel Ferede</span>
                 </Link>
 
                 <div className={
@@ -64,20 +79,20 @@ export default function Navbar() {
                 }>
                     <ul className="flex flex-col mt-4 md:flex-row md:space-x-2 rtl:space-x-reverse md:mt-0 md:border-0">
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "home") }} className="block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out md:text-white text-black" aria-current="page">Home</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "home") }} className={`block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 md:dark:hover:bg-transparent dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out ${isNavBarSticky ? 'text-black' : 'md:text-white text-black'}`} aria-current="page">Home</Link>
                         </li>
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "about-me") }} className="block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out md:text-white text-black" aria-current="page">About Me</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "about-me") }} className={`block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 md:dark:hover:bg-transparent dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out ${isNavBarSticky ? 'text-black' : 'md:text-white text-black'}`} aria-current="page">About Me</Link>
                         </li>
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "works") }} className="block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out md:text-white text-black" aria-current="page">Works</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "works") }} className={`block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 md:dark:hover:bg-transparent dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out ${isNavBarSticky ? 'text-black' : 'md:text-white text-black'}`} aria-current="page">Works</Link>
                         </li>
 
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "skills") }} className="block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out md:text-white text-black" aria-current="page">Skills</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "skills") }} className={`block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 md:dark:hover:bg-transparent dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out ${isNavBarSticky ? 'text-black' : 'md:text-white text-black'}`} aria-current="page">Skills</Link>
                         </li>
                         <li>
-                            <Link href="#" onClick={(e) => { hadelScroll(e, "certificates") }} className="block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out md:text-white text-black" aria-current="page">Certificates</Link>
+                            <Link href="#" onClick={(e) => { hadelScroll(e, "certificates") }} className={`block py-2 md:px-3 px-5  border-b-2 border-b-transparent md:hover:border-b-orange-600 md:dark:hover:bg-transparent dark:hover:bg-gray-600 dark:text-white transition duration-500 ease-in-out ${isNavBarSticky ? 'text-black' : 'md:text-white text-black'}`} aria-current="page">Certificates</Link>
                         </li>
                     </ul>
                 </div>

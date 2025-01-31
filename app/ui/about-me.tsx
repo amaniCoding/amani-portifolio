@@ -1,7 +1,7 @@
 'use client'
 export default function AboutMe() {
   return (
-    <section className="w-full md:py-4 p-2 md:bg-orange-700 dark:bg-slate-900" id="about-me">
+    <section className="w-full md:py-4 p-2 md:bg-orange-500 dark:bg-slate-900" id="about-me">
 
       <div className="mx-auto max-w-screen-md md:py-10 py-3">
         <h1 className='md:text-2xl text-lg font-bold text-center mb-1 md:text-white text-black dark:text-slate-400'>About Me</h1>
