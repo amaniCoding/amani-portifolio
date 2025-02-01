@@ -20,7 +20,7 @@ export default function Navbar() {
         e.preventDefault()
         window.scrollTo({
             // @ts-expect-error: Object is possibly 'null'.
-            top: document.querySelector(`#${name}`).offsetTop,
+            top: document.querySelector(`#${name}`).offsetTop - 60,
             behavior: "smooth"
         });
         setShowCollapse(false);
