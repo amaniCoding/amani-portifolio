@@ -44,7 +44,7 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
   }
 
   return (
-    <div className={`bg-black/50 fixed z-30 top-0 bottom-0 left-0 right-0 flex items-center justify-center ${props.isModalOpen ? ' block' : 'hidden'}`}>
+    <div className={`bg-black/50 fixed z-50 top-0 bottom-0 left-0 right-0 flex items-center justify-center ${props.isModalOpen ? ' block' : 'hidden'}`}>
       <div className="px-5 pt-5 pb-2 max-w-screen-sm block bg-white relative rounded-md dark:bg-gray-900"
       >
         <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white hover:-translate-x-1" />
@@ -93,13 +93,13 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
             </div>
           </div>
 
-          <div className="p-2 w-full flex items-center space-x-4 mt-3" onClick={handelCloseModal}>
-            <button className="rounded-lg p-2 bg-slate-300 text-center text-black dark:bg-gray-600 dark:text-white text-sm dark:hover:bg-gray-300 dark:hover:text-black">Cancel</button>
+          <div className="p-2 w-full flex items-center space-x-4 mt-3">
+            <button className="rounded-lg p-2 bg-slate-300 text-center text-black dark:bg-gray-600 dark:text-white text-sm dark:hover:bg-gray-300 dark:hover:text-black" onClick={handelCloseModal}>Cancel</button>
             <Link
               href={`${props.work?.link}`}
-              className="block"
+              className="p-2 bg-orange-500 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500"
               target="_blank"
-            ><button className=" p-2 bg-orange-500 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500">Visit</button></Link>
+            >Visit</Link>
           </div>
         </div>
 

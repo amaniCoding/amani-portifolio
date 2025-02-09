@@ -39,7 +39,7 @@ export default function Works() {
       title: 'Next Js Starter Project',
       description: "nextjs-dashboard in next.js latest framework, from official website used tailwind css for styling",
       photo: "/works/wo-1/wall.jpg",
-      link: "https://next-starter-project-woad.vercel.app/",
+      link: "https://next-starter-project-woad.vercel.app",
       modalContent: [
         {
           id: 1,
@@ -73,7 +73,7 @@ export default function Works() {
       title: "NordStorm",
       description: 'Online fashion shopping application inspired by NordStorm official website used Next.Js and tailwind for styling',
       photo: "/works/wo-2/wall.jpg",
-      link: "https://nordstorm-ten.vercel.app/",
+      link: "https://nordstorm-ten.vercel.app",
       
       modalContent: [
         {
@@ -108,7 +108,7 @@ export default function Works() {
       title: "Dev-Connector",
       description: 'Social media like application which connects developers and share thier ideas made using latest Next.js framework and tailwindcss for styling',
       photo: "/works/wo-3/wall.jpg",
-      link: "https://divconnector.vercel.app/",
+      link: "https://divconnector.vercel.app",
       
       modalContent: [
         {
@@ -143,7 +143,7 @@ export default function Works() {
       title: "Medical compnay website",
       description: 'Medico website : Frontend only using react and tailwind for styling',
       photo: "/works/wo-4/wall.jpg",
-      link: "https://medico-alpha.vercel.app/",
+      link: "https://medico-alpha.vercel.app",
       
       modalContent: [
         {
@@ -171,7 +171,7 @@ export default function Works() {
       title: "News compnay website",
       description: 'Website made for news company using Next.js and tailwindcss for styling',
       photo: "/works/wo-5/wall.jpg",
-      link: "https://my-news-app-rho.vercel.app/",
+      link: "https://my-news-app-rho.vercel.app",
       
       modalContent: [
         {
@@ -206,7 +206,7 @@ export default function Works() {
       title: "My Tube",
       description: 'Video and audio streaming application using Next.js framework and tailwind css for designing the website',
      photo: "/works/wo-6/wall.jpg",
-      link: "https://mytube-cyan-theta.vercel.app/",
+      link: "https://mytube-cyan-theta.vercel.app",
       
       modalContent: [
         {

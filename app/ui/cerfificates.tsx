@@ -12,7 +12,7 @@ export default function Certificates() {
       <div className="mx-auto max-w-screen-lg">
         <div className="grid md:grid-cols-5 grid-cols-3 gap-3">
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-40 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
+            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
               <Link
                 href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                 target="_blank"
@@ -51,7 +51,7 @@ export default function Certificates() {
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-40 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
+            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
               <Link
                 href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=drive_link`}
                 target="_blank"
@@ -90,7 +90,7 @@ export default function Certificates() {
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-40 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
+            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
               <Link
                 href={`https://drive.google.com/file/d/1tnA9YlmapjNED_DaiJhgAX8-rARAScgq/view?usp=drive_link`}
                 target="_blank"
@@ -128,7 +128,7 @@ export default function Certificates() {
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-40 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
+            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
               <Link
                 href={`/cert/4.jpg`}
                 target="_blank"
@@ -166,7 +166,7 @@ export default function Certificates() {
             </div>
           </div>
           <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-40 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
+            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
               <Link
                 href={`/cert/5.jpg`}
                 target="_blank"
