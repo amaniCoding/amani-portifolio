@@ -1,6 +1,7 @@
 import AboutMe from "./ui/about-me";
 import { BackToTop } from "./ui/back-to-top";
 import Certificates from "./ui/cerfificates";
+import ContactMe from "./ui/contact-me";
 import Footer from "./ui/footer";
 import HeroImage from "./ui/hero-image";
 import Navbar from "./ui/nav-bar";
@@ -19,6 +20,7 @@ export default function Home() {
       <TechStacks/>
       <Works/>
       <Certificates/>
+      <ContactMe/>
       <Footer/>
       <BackToTop/>
     </main>
