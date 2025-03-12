@@ -92,7 +92,7 @@ export default function Navbar() {
                         {
                             navItems.map((el, index) => {
                                 return (
-                                    <span className={`p-2 px-3 ml-5 rounded-3xl cursor-pointer ${el.isActive ? 'bg-blue-500 text-white dark:bg-gray-600' : 'bg-transparent text-black dark:text-white'}`} onClick={(e) => { hadelScroll(e, el.id, index) }} key={index}>{el.name}</span>
+                                    <span className={`p-2 px-3 mx-5 rounded-3xl cursor-pointer ${el.isActive ? 'bg-blue-500 text-white dark:bg-gray-600' : 'bg-transparent text-black dark:text-white'}`} onClick={(e) => { hadelScroll(e, el.id, index) }} key={index}>{el.name}</span>
                                 )
                             })
                         }
