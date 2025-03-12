@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 export default function HeroImage() {
-        const [showCollapse, setShowCollapse] = useState(false);
+
+    const [showCollapse, setShowCollapse] = useState(false);
     const hadelScroll = (e: React.MouseEvent<HTMLElement>, name: string) => {
         e.preventDefault()
         window.scrollTo({
@@ -16,8 +17,8 @@ export default function HeroImage() {
     }
     return (
         <section className="w-full mt-[90px] md:dark:mt-[81px] dark:mt-[57px] md:bg-[url('/re.png')] md:h-screen md:bg-no-repeat relative bg-center bg-cover dark:brightness-50" id='home'>
-            
-            
+
+
             <div className='md:hidden flex space-x-3 px-3 dark:bg-gray-900 py-10'>
                 <Image
                     src={`/66.jpg`}
