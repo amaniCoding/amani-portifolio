@@ -101,7 +101,7 @@ export default function Navbar() {
 
                     </div>
             <div className="max-w-screen-lg mx-auto">
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between space-x-3">
 
                     <Image
                         src={`/bg.jpg`}
@@ -110,7 +110,7 @@ export default function Navbar() {
                         height={0}
                         sizes="100vh"
 
-                        className="md:block w-12 h-12 rounded-full hidden"
+                        className=" w-12 h-12 rounded-full"
                     />
                     <h5 className="md:hidden block text-nowrap dark:text-white">Amanuel Ferede</h5>
 
