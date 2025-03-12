@@ -88,7 +88,7 @@ export default function Navbar() {
     return (
 
         <nav className="dark:bg-gray-950 fixed top-0 left-0 right-0 bg-white shadow-md z-50 md:py-4 py-2 md:px-0 px-6">
-            <div className={`md:hidden flex-col space-y-3 fixed top-20 left-0  pb-3 right-0 bottom-0 z-[200] w-full h-screen shadow-lg rounded-br-lg rounded-bl-lg bg-white dark:bg-gray-950 ${showCollapse ? 'flex' : 'hidden'}`}>
+            <div className={`md:hidden flex-col space-y-3 fixed top-[67px] left-0  pb-3 right-0 bottom-0 z-[200] w-full h-screen shadow-lg rounded-br-lg rounded-bl-lg bg-white dark:bg-gray-950 ${showCollapse ? 'flex' : 'hidden'}`}>
                         {
                             navItems.map((el, index) => {
                                 return (

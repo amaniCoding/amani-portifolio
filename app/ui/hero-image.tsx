@@ -16,7 +16,7 @@ export default function HeroImage() {
         setShowCollapse(false);
     }
     return (
-        <section className="w-full mt-[87px] md:dark:mt-[81px] dark:mt-[57px] md:bg-[url('/re.png')] md:h-screen md:bg-no-repeat relative bg-center bg-cover dark:brightness-50" id='home'>
+        <section className="w-full mt-[80px] md:dark:mt-[81px] dark:mt-[57px] md:bg-[url('/re.png')] md:h-screen md:bg-no-repeat relative bg-center bg-cover dark:brightness-50" id='home'>
 
 
             <div className='md:hidden flex space-x-3 px-3 dark:bg-gray-900 py-10'>
