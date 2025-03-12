@@ -42,8 +42,10 @@ export default function ContactMe() {
                         </div>
                     </div>
 
-                    <div className="flex items-center justify-center">
-                        <p className="text-center mb-2 dark:text-slate-200 px-3 my-2">Contact Me on</p>
+                    <div className="flex flex-col space-y-3 items-center justify-center">
+                        <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-400'>Get me on</h1>
+
+
                         <div className="grid md:grid-cols-5 grid-cols-3 gap-6">
                             <div className="flex flex-col items-center justify-center">
 
@@ -80,6 +82,7 @@ export default function ContactMe() {
                                 <h2 className="mt-2 dark:text-white">CV</h2>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
