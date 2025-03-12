@@ -7,7 +7,7 @@ export default function Certificates() {
     <section className="w-full my-1 dark:pt-4 dark:mb-0 dark:mt-0 dark:bg-slate-800" id="certificates">
 
       <div className="mx-auto max-w-screen-sm">
-        <h1 className='md:text-xl text-lg font-bold text-cente my-1 dark:text-slate-400'>Certificates</h1>
+        <h1 className='md:text-xl text-lg font-bold text-center my-1 dark:text-slate-400'>Certificates</h1>
       </div>
       <div className="mx-auto max-w-screen-lg">
         <div className="grid md:grid-cols-3 grid-cols-1 gap-6">
@@ -21,13 +21,13 @@ export default function Certificates() {
                 className="w-full h-48 object-scale-down"
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
                 >
-                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
                 </Link>
               </div>
 
@@ -52,13 +52,13 @@ export default function Certificates() {
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
                 >
-                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
                 </Link>
               </div>
 
@@ -83,13 +83,13 @@ export default function Certificates() {
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
                 >
-                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
                 </Link>
               </div>
 
@@ -122,13 +122,13 @@ export default function Certificates() {
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
                 >
-                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
                 </Link>
               </div>
 
@@ -155,13 +155,13 @@ export default function Certificates() {
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
                 >
-                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
                 </Link>
               </div>
 
