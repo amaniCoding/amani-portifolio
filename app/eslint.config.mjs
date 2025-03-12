@@ -7,17 +7,13 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.config({
-    extends: ['next'],
+    extends: ['next/core-web-vitals', 'next/typescript'],
     rules: {
-        'react/no-unescaped-entities': 'off',
-        '@next/next/no-page-custom-font': 'off',
-      },'@typescript-eslint/no-unused-vars': 'off',
-    settings: {
-      next: {
-        rootDir: 'packages/my-app/',
-      },
+      'react/no-unescaped-entities': 'off',
+      '@next/next/no-page-custom-font': 'off',
+      '@typescript-eslint/no-unused-vars': 'error',
+      
     },
-
   }),
 ]
 
