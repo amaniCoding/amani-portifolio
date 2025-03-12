@@ -21,13 +21,17 @@ export default function Certificates() {
                 className="w-full h-48 object-scale-down"
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute dark:bg-gray-900/55 top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-900/20 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
+
                 >
-                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
+
+                  <button className="border-4 border-gray-500 absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-white flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
+
                 </Link>
               </div>
 
@@ -52,13 +56,15 @@ export default function Certificates() {
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute dark:bg-gray-900/55 top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-900/20 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
+
                 >
-                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
+                  <button className="border-4 border-gray-500 absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-white flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
                 </Link>
               </div>
 
@@ -83,13 +89,15 @@ export default function Certificates() {
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute dark:bg-gray-900/55 top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-900/20 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
+
                 >
-                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
+                  <button className="border-4 border-gray-500 absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-white flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
                 </Link>
               </div>
 
@@ -122,13 +130,15 @@ export default function Certificates() {
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute dark:bg-gray-900/55 top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-900/20 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
+
                 >
-                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
+                  <button className="border-4 border-gray-500 absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-white flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
                 </Link>
               </div>
 
@@ -155,13 +165,15 @@ export default function Certificates() {
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-700/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+              <div className="md:flex absolute dark:bg-gray-900/55 top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-blue-900/20 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
                 <Link
                   href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
                   target="_blank"
+
                 >
-                  <button className="rounded-lg p-2 bg-white text-black border-2 border-blue-600 dark:bg-slate-900 da dark:text-slate-200">View</button>
+                  <button className="border-4 border-gray-500 absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-white flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
                 </Link>
               </div>
 

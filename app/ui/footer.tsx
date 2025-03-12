@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <section className="w-full pt-3 bg-blue-700 dark:bg-black">
+    <section className="w-full pt-3 bg-blue-600 dark:bg-gray-700">
 
       <div className="mx-auto w-full text-white">
         <div className="p-3 pt-3">
