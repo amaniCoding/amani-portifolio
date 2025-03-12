@@ -1,25 +1,24 @@
 'use client'
 import Image from 'next/image';
 import Link from 'next/link';
-import Navbar from './nav-bar';
 
 export default function HeroImage() {
     return (
-        <section className="w-full dark:bg-gray-900 md:bg-slate-600 md:bg-[url('/99.jpg')] md:h-screen md:bg-no-repeat relative dark:brightness-75 bg-center bg-cover" id='home'>
-            <Navbar />
-            <div className='md:block hidden absolute top-0 bottom-0 left-0 right-0 bg-black/65 dark:bg-black/80'></div>
-            <div className='md:hidden flex  space-x-3 px-3'>
+        <section className="w-full mt-[90px] md:dark:mt-[81px] dark:mt-[64.3px] md:bg-[url('/re.png')] md:h-screen md:bg-no-repeat relative bg-center bg-cover dark:brightness-50" id='home'>
+            
+            
+            <div className='md:hidden flex space-x-3 px-3 dark:bg-gray-900'>
                 <Image
-                    src={`/99.jpg`}
+                    src={`/66.jpg`}
                     width={0}
                     height={0}
                     sizes='100vh'
                     alt='Amanuel Ferede'
-                    className='w-16 h-16 rounded-full border-2 border-orange-700 object-cover dark:border-white'
+                    className='w-16 h-16 rounded-full object-cover'
                 />
-                <div className='grow'>
+                <div className='grow '>
                     <p className='md:hidden block font-bold dark:text-white'>Amanuel Ferede</p>
-                    <p className='md:hidden blockdark:text-white text-sm dark:text-white'>Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
+                    <p className='md:hidden block text-sm dark:text-white'>Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
 
                     <div className='md:hidden flex space-x-2 items-center'>
                         <span className='p-2  md:text-white dark:text-white text-black'>+251918634810</span>
@@ -30,13 +29,11 @@ export default function HeroImage() {
 
 
 
-            <div className='md:block hidden w-[50%] absolute right-5 top-32 dark:bg-black/55 bg-orange-900/55 px-5 py-4'>
+            <div className='md:block hidden w-[40%] absolute -left-5 top-10 px-5 py-4 z-20'>
                 <div className='w-full flex flex-col space-y-4 p-4'>
-                    <h1 className='md:text-xl text-lg font-bold md:text-white text-black md:block hidden dark:text-white'>Hi there, I am Amanuel 👋</h1>
-                    <p className="md:text-xl  text-white w-[100%] dark:text-orange-100">Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
-
-
-                    <p className='text-lg text-orange-300 font-bold'>{'"'} Perfection is impossible; just strive to do your best. {'"'}</p>
+                    <h1 className='md:text-xl text-lg font-bold text-black md:block hidden dark:text-black'>Hi there, I am Amanuel 👋</h1>
+                    <p className="md:text-xl  text-black dark:text-black">Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
+                    <button className="w-64 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white">Visit</button>
 
                     <div className='flex space-x-4 items-center'>
                         <span className='p-2  md:text-white dark:text-white text-black'>+251918634810</span>

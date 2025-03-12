@@ -47,8 +47,8 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
     <div className={`bg-black/50 fixed z-50 top-0 bottom-0 left-0 right-0 flex items-center justify-center ${props.isModalOpen ? ' block' : 'hidden'}`}>
       <div className="px-5 pt-5 pb-2 max-w-screen-sm block bg-white relative rounded-md dark:bg-gray-900"
       >
-        <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2 hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white hover:-translate-x-1" />
-        <ArrowRightIcon onClick={handelNext} className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-orange-200 cursor-pointer rounded-full p-2  hover:bg-orange-500 stroke-black hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white hover:translate-x-1" />
+        <ArrowLeftIcon onClick={handelPrev} className="w-9 h-9 flex items-center justify-center absolute top-1/2 left-3 z-20 bg-blue-600 cursor-pointer rounded-full p-2 hover:bg-blue-500 stroke-white hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white hover:-translate-x-1" />
+        <ArrowRightIcon onClick={handelNext} className="w-9 h-9 flex items-center justify-center absolute top-1/2 right-3 z-20 bg-blue-600 cursor-pointer rounded-full p-2  hover:bg-blue-500 stroke-white hover:text-white hover:scale-110 transition duration-300 ease-out hover:stroke-white dark:bg-slate-800 dark:stroke-white hover:translate-x-1" />
         
           <XMarkIcon className="w-10 h-10 absolute top-2 right-3 cursor-pointer hover:bg-slate-300 p-2 rounded-full stroke-black dark:stroke-white dark:bg-slate-800 dark:hover:bg-slate-500" onClick={handelCloseModal} />
         <div className="flex flex-col">
@@ -97,7 +97,7 @@ export default function WorkModal(props: { work?: MyWork, modalContent?: Modalco
             <button className="rounded-lg p-2 bg-slate-300 text-center text-black dark:bg-gray-600 dark:text-white text-sm dark:hover:bg-gray-300 dark:hover:text-black" onClick={handelCloseModal}>Cancel</button>
             <Link
               href={`${props.work?.link}`}
-              className="p-2 bg-orange-500 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500"
+              className="p-2 bg-blue-600 text-center text-white rounded-lg dark:bg-slate-800 dark:text-white text-sm dark:hover:bg-slate-500"
               target="_blank"
             >Visit</Link>
           </div>

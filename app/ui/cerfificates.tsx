@@ -7,201 +7,174 @@ export default function Certificates() {
     <section className="w-full my-1 dark:pt-4 dark:mb-0 dark:mt-0 dark:bg-slate-800" id="certificates">
 
       <div className="mx-auto max-w-screen-sm">
-        <h1 className='md:text-xl text-lg font-bold text-center my-1 dark:text-slate-400'>Certificates</h1>
+        <h1 className='md:text-xl text-lg font-bold text-center dark:text-white my-1 dark:text-slate-400'>Certificates</h1>
       </div>
       <div className="mx-auto max-w-screen-lg">
-        <div className="grid md:grid-cols-5 grid-cols-3 gap-3">
-          <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
-              <Link
-                href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
-                target="_blank"
-              >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">Show More</button>
-              </Link>
-            </div>
-            <div className="flex flex-col items-center justify-center h-full">
-
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-6">
+          <div className="">
+            <div className="group relative rounded-xl overflow-hidden w-full p-5">
               <Image
                 src="/cert/programming.png"
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-20 h-20 object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out md:block hidden"
-
+                className="w-full h-48 object-scale-down"
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <Link
-                href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
-                target="_blank"
-                className="md:hidden block"
-              >
-                <Image
-                  src="/cert/programming.png"
-                  width={0}
-                  height={0}
-                  sizes="100vh"
-                  className="w-20 h-20 block object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out"
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
-                  alt="Screenshots of the dashboard project showing desktop version"
-                />
-              </Link>
+                <Link
+                  href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+                  target="_blank"
+                >
+                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                </Link>
+              </div>
 
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Fundamentals Of Programming</p>
             </div>
+            <div className="my-2">
+              <h2 className="text-lg font-bold text-center dark:text-white">Android developer fundamentals</h2>
+              <p className="text-center dark:text-white">Learn the latest in development technology using Android Studio.</p>
+            </div>
+            <Link
+              href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+              target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
           </div>
-          <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
-              <Link
-                href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=drive_link`}
-                target="_blank"
-              >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 dark:text-slate-200">Show More</button>
-              </Link>
-            </div>
-            <div className="flex flex-col items-center justify-center h-full">
 
+          <div className="">
+            <div className="group relative rounded-xl overflow-hidden w-full p-5">
               <Image
                 src="/cert/pro.png"
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-20 h-20 md:block hidden object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out"
+                className="w-full h-48 object-scale-down"
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <Link
-                href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=drive_link`}
-                target="_blank"
-                className="md:hidden block"
-              >
-                <Image
-                  src="/cert/pro.png"
-                  width={0}
-                  height={0}
-                  sizes="100vh"
-                  className="w-20 h-20 block object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out"
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
-                  alt="Screenshots of the dashboard project showing desktop version"
-                />
-              </Link>
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Fundamentals Of Android Programming
-              </p>
+                <Link
+                  href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+                  target="_blank"
+                >
+                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                </Link>
+              </div>
+
             </div>
+            <div className="my-2">
+              <h2 className="text-lg font-bold text-center dark:text-white">Android developer fundamentals</h2>
+              <p className="text-center dark:text-white">Learn the latest in development technology using Android Studio.</p>
+            </div>
+
+            <Link
+              href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+              target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
           </div>
-          <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
-              <Link
-                href={`https://drive.google.com/file/d/1tnA9YlmapjNED_DaiJhgAX8-rARAScgq/view?usp=drive_link`}
-                target="_blank"
-              >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 dark:text-slate-200">Show More</button>
-              </Link>
-            </div>
-            <div className="flex flex-col items-center justify-center h-full">
-
+          <div className="">
+            <div className="group relative rounded-xl overflow-hidden w-full p-5">
               <Image
                 src="/cert/exploration.png"
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-20 h-20 md:block hidden object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out"
+                className="w-full h-48 object-scale-down"
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <Link
-                href={`https://drive.google.com/file/d/1tnA9YlmapjNED_DaiJhgAX8-rARAScgq/view?usp=drive_link`}
-                target="_blank"
-                className="md:hidden block"
-              >
-                <Image
-                  src="/cert/exploration.png"
-                  width={0}
-                  height={0}
-                  sizes="100vh"
-                  className="w-20 h-20 block object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out"
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
-                  alt="Screenshots of the dashboard project showing desktop version"
-                />
-              </Link>
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Data Analysis Fundamentals</p>
+                <Link
+                  href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+                  target="_blank"
+                >
+                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                </Link>
+              </div>
+
             </div>
+            <div className="my-2">
+              <h2 className="text-lg font-bold text-center dark:text-white">Android developer fundamentals</h2>
+              <p className="text-center dark:text-white">Learn the latest in development technology using Android Studio.</p>
+            </div>
+
+            <Link
+              href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+              target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
           </div>
-          <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
-              <Link
-                href={`/cert/4.jpg`}
-                target="_blank"
-              >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 dark:text-slate-200">Show More</button>
-              </Link>
-            </div>
-            <div className="flex flex-col items-center justify-center h-full">
 
+
+
+        </div>
+        <div className="mx-auto max-w-screen-sm my-4">
+          <h1 className='md:text-xl text-lg font-bold text-center dark:text-white my-1'>College</h1>
+        </div>
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
+          <div className="">
+            <div className="rounded-xl group relative overflow-hidden w-full p-4">
               <Image
                 src="/cert/certificate.png"
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-20 h-20 md:block hidden object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out"
+                className="w-full h-48 object-scale-down"
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <Link
-                href={`/cert/4.jpg`}
-                target="_blank"
-                className="md:hidden block"
-              >
-                <Image
-                  src="/cert/certificate.png"
-                  width={0}
-                  height={0}
-                  sizes="100vh"
-                  className="w-20 h-20 block object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out"
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
-                  alt="Screenshots of the dashboard project showing desktop version"
-                />
-              </Link>
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Degree Certificate</p>
+                <Link
+                  href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+                  target="_blank"
+                >
+                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                </Link>
+              </div>
+
+            </div>
+            <div className="my-2">
+              <h2 className="text-lg font-bold text-center dark:text-white">A degree certificate </h2>
+              <p className="text-center dark:text-white">Diploma awarded by an educational establishment showing that I have successfully completed Information Technology</p>
+              <Link
+                href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+                target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
             </div>
           </div>
-          <div className="rounded-xl shadow-sm group relative overflow-hidden h-44 w-full">
-            <div className="absolute top-0 bottom-0 right-0 left-0 z-10 items-center hidden md:flex md:opacity-0 justify-center bg-slate-200/95 md:group-hover:opacity-100 transition-all duration-500 ease-out dark:md:group-hover:bg-slate-500">
-              <Link
-                href={`/cert/5.jpg`}
-                target="_blank"
-              >
-                <button className="rounded-lg p-2 bg-gray-900 text-white border-2 border-white dark:bg-slate-900 dark:text-slate-200">Show More</button>
-              </Link>
-            </div>
-            <div className="flex flex-col items-center justify-center h-full">
+          <div className="">
 
+
+
+            <div className="rounded-xl group relative overflow-hidden w-full p-4">
               <Image
-                src="/cert/programming.png"
+                src="/cert/gpa.png"
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-20 h-20 md:block hidden object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out"
+                className="w-full h-48 object-scale-down"
 
                 alt="Screenshots of the dashboard project showing desktop version"
               />
-              <Link
-                href={`/cert/5.jpg`}
-                target="_blank"
-                className="md:hidden block"
-              >
-                <Image
-                  src="/cert/certificate.png"
-                  width={0}
-                  height={0}
-                  sizes="100vh"
-                  className="w-20 h-20 block object-cover group-hover:brightness-75 md:group-hover:scale-105 md:transition duration-300 ease-in-out"
+              <div className="md:flex absolute top-0 bottom-0 right-0 left-0 z-10 hidden items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
 
-                  alt="Screenshots of the dashboard project showing desktop version"
-                />
-              </Link>
-              <p className="text-sm font-bold text-center text-black dark:text-slate-400 mt-2">Student Record</p>
+                <Link
+                  href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+                  target="_blank"
+                >
+                  <button className="rounded-lg p-2 bg-blue-600 text-white border-2 border-white dark:bg-slate-900 da dark:text-slate-200">View</button>
+                </Link>
+              </div>
+
             </div>
+
+            <div className="my-2">
+              <h2 className="text-lg font-bold text-center dark:text-white">A degree student record </h2>
+              <p className="text-center dark:text-white">Official document maintained by an educational institution that details a students entire academic history throughout their pursuit of a specific degree, including all courses taken, grades received</p>
+              <Link
+                href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+                target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+            </div>
+
           </div>
         </div>
       </div>

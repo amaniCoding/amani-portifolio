@@ -31,6 +31,6 @@ const backToTop = useRef<SVGSVGElement>(null);
   },[])
   return (
 
-      <ArrowUpIcon className="w-11 h-11 rounded-full bg-orange-600 text-white p-3 fixed md:bottom-14 md:right-14 bottom-11 right-11 cursor-pointer stroke-white dark:bg-slate-900 dark:text-white" onClick={(e) => { hadelScroll(e, 'home') }} ref={backToTop} />
+      <ArrowUpIcon className="w-11 h-11 rounded-full bg-blue-600 text-white p-3 fixed md:bottom-14 md:right-14 bottom-11 right-11 cursor-pointer stroke-white dark:bg-slate-900 dark:text-white" onClick={(e) => { hadelScroll(e, 'home') }} ref={backToTop} />
   )
 }
