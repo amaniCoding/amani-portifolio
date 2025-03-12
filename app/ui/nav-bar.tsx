@@ -38,6 +38,11 @@ export default function Navbar() {
                 id: 'certificates',
                 isActive: false
             }
+            {
+                name: 'Contact Me',
+                id: 'contact-me',
+                isActive: false
+            }
         ]
     )
     const handelCollapse = () => {
