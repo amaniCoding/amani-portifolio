@@ -37,7 +37,7 @@ export default function Navbar() {
                 name: 'Certificates',
                 id: 'certificates',
                 isActive: false
-            }
+            },
             {
                 name: 'Contact Me',
                 id: 'contact-me',
