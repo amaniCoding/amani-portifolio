@@ -6,7 +6,7 @@ import { FaFacebook, FaLinkedinIn, FaTelegram, FaWhatsapp } from "react-icons/fa
 
 export default function ContactMe() {
     return (
-        <section className="w-full py-2 dark:mb-0 mb-4  dark:bg-gray-800" id="contact-me">
+        <section className="w-full py-5 dark:mb-0 mb-4  dark:bg-gray-800" id="contact-me">
             <div className="mx-auto max-w-screen-lg mb-4">
                 <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-400'>Let us build together</h1>
 
