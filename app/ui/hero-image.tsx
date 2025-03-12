@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 export default function HeroImage() {
-
+    //@typescript-eslint/no-unused-vars
     const [showCollapse, setShowCollapse] = useState(false);
     const hadelScroll = (e: React.MouseEvent<HTMLElement>, name: string) => {
         e.preventDefault()
