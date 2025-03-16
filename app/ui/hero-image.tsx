@@ -30,9 +30,9 @@ export default function HeroImage() {
                 />
                 <div className='grow '>
                     <p className='md:hidden block font-bold dark:text-white'>Amanuel Ferede</p>
-                    <p className='md:hidden block text-sm dark:text-white'>Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
+                    <p className='md:hidden block dark:text-white'>Fullstack software engineer | Front-end developer | React developer | Javascript developer</p>
 
-                    <button className="mt-4 md:hidden w-64 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white" onClick={(e) => { hadelScroll(e, 'contact-me') }}>Let us work together</button>
+                    <button className="mt-4 md:hidden px-3 py-2 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-2xl text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white" onClick={(e) => { hadelScroll(e, 'contact-me') }}>Let us work together</button>
 
                 </div>
             </div>

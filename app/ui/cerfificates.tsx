@@ -29,8 +29,8 @@ export default function Certificates() {
 
                 >
 
-                  <button className="border-4 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
-                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
+                  <button className="border-2 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
 
                 </Link>
               </div>
@@ -63,8 +63,8 @@ export default function Certificates() {
                   target="_blank"
 
                 >
-                  <button className="border-4 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
-                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
+                  <button className="border-2 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
                 </Link>
               </div>
 
@@ -96,8 +96,8 @@ export default function Certificates() {
                   target="_blank"
 
                 >
-                  <button className="border-4 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
-                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
+                  <button className="border-2 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
                 </Link>
               </div>
 
@@ -137,8 +137,8 @@ export default function Certificates() {
                   target="_blank"
 
                 >
-                  <button className="border-4 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
-                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
+                  <button className="border-2 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
                 </Link>
               </div>
 
@@ -172,8 +172,8 @@ export default function Certificates() {
                   target="_blank"
 
                 >
-                  <button className="border-4 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
-                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-20 h-20 rounded-full group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
+                  <button className="border-2 border-white absolute z-50 -translate-x-1/2 top-1/2 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg bg-blue-600 flex items-center justify-center dark:border-white font-bold dark:bg-gray-700 dark:text-white text-white">View</button>
+                  <button className="absolute -translate-x-1/2 top-1/2  bg-white scale-100 -translate-y-1/2 left-1/2 w-16 h-9 rounded-lg group-hover:scale-150 opacity-100 group-hover:opacity-0  flex items-center justify-center transition-all duration-500 ease-in-out"></button>
                 </Link>
               </div>
 

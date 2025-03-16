@@ -52,7 +52,7 @@ export default function Navbar() {
         e.preventDefault()
         window.scrollTo({
             // @ts-expect-error: Object is possibly 'null'.
-            top: document.querySelector(`#${name}`).offsetTop - 17,
+            top: document.querySelector(`#${name}`).offsetTop,
             behavior: "smooth"
         });
         setShowCollapse(false);
@@ -118,7 +118,7 @@ export default function Navbar() {
                         {
                             navItems.map((el, index) => {
                                 return (
-                                    <span className={`p-2 px-3 ml-5 rounded-3xl cursor-pointer ${el.isActive ? 'bg-blue-500 text-white dark:bg-gray-600' : 'bg-transparent text-black dark:text-white'}`} onClick={(e) => { hadelScroll(e, el.id, index) }} key={index}>{el.name}</span>
+                                    <span className={`p-2 px-3 pl-0 ml-5 cursor-pointer rounded-3xl relative group ${el.isActive ? 'bg-blue-500 rounded-3xl text-white pl-3 dark:bg-gray-600' : 'pl-0 transition-all duration-700 ease-in-out bg-transparent text-black dark:text-white'}`} onClick={(e) => { hadelScroll(e, el.id, index) }} key={index}>{el.name} <span className={`absolute left-0 h-[4px] top-full w-0 group-hover:w-full bg-blue-600 transition-all duration-300 ease-in-out ${el.isActive ? 'hidden' : 'block'}`}></span> </span>
                                 )
                             })
                         }
