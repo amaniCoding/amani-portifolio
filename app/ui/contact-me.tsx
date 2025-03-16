@@ -16,21 +16,21 @@ export default function ContactMe() {
                         <div className="my-2">
                             <label htmlFor="name" className="my-1 block dark:text-white">Your Name</label>
                             <div className="my-3">
-                                <input className="focus:border-blue-700 p-3 block w-full outline-none border-2 border-gray-200 rounded-xl placeholder:text-slate-400 dark:placeholder:text-white dark:bg-transparent dark:focus:border-black dark:text-white" placeholder="Your Name"></input>
+                                <input className="focus:border-blue-700 p-3 block w-full outline-none border-[1.9px] dark:border-2 dark:border-white dark:placeholder:text-gray-500 dark:focus:placeholder:text-white focus:border-[1.99px] transition-all durationb-500 ease-in-out border-black/20 rounded-xl placeholder:text-slate-400 dark:placeholder:text-white dark:bg-transparent dark:focus:border-black dark:text-white" placeholder="Your Name"></input>
                             </div>
                         </div>
 
                         <div className="my-2">
                             <label htmlFor="name" className="my-1 block dark:text-white">Your Email</label>
                             <div className="my-3">
-                                <input className=" focus:border-blue-700 p-3 block w-full outline-none border-2 border-gray-200 rounded-xl placeholder:text-slate-400 dark:placeholder:text-white dark:bg-transparent dark:focus:border-black dark:text-white" placeholder="Your Email you@example.com"></input>
+                                <input className=" focus:border-blue-700 p-3 block w-full outline-none border-[1.9px] dark:border-2 dark:border-white dark:placeholder:text-gray-500 dark:focus:placeholder:text-white focus:border-[1.99px] transition-all durationb-500 ease-in-out border-black/20 rounded-xl placeholder:text-slate-400 dark:placeholder:text-white dark:bg-transparent dark:focus:border-black dark:text-white" placeholder="Your Email you@example.com"></input>
                             </div>
                         </div>
 
                         <div className="my-2">
                             <label htmlFor="name" className="my-1 block dark:text-white">Message</label>
                             <div className="my-3">
-                                <textarea rows={5} className="focus:border-blue-700 p-3 block w-full outline-none border-2 border-gray-200 rounded-xl placeholder:text-slate-400 dark:placeholder:text-white dark:bg-transparent dark:focus:border-black dark:text-white" placeholder="Your Message"></textarea>
+                                <textarea rows={5} className="focus:border-blue-700 p-3 block w-full outline-none border-[1.9px] dark:border-2 dark:border-white dark:placeholder:text-gray-500 dark:focus:placeholder:text-white focus:border-[1.99px] transition-all durationb-500 ease-in-out border-black/20 rounded-xl placeholder:text-slate-400 dark:placeholder:text-white dark:bg-transparent dark:focus:border-black dark:text-white" placeholder="Your Message"></textarea>
                             </div>
                         </div>
                         <div className="my-2">
