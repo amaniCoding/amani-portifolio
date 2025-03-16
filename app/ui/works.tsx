@@ -248,49 +248,50 @@ export default function Works() {
           <p className="text-center mb-2 dark:text-slate-400">These are some of the projects I have worked and practiced on up until now.</p>
         </div>
 
-        <div className="mx-auto max-w-screen-lg">
+        <div className="mx-auto max-w-screen-lg bg-white pt-3 dark:bg-gray-800 dark:text-white">
 
-          <div className="">
+
+
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
             {
               works.map(work => {
                 return (
-                  <div className="bg-white pt-3 my-3 dark:bg-gray-800 dark:text-white" key={work.id}>
-                    <div className="grid md:grid-cols-2 grid-cols-1 gap-5 my-4">
-                      <div>
-                        <Image
-                          src={`${work.photo}`}
-                          alt="next starter project"
-                          width={0}
-                          height={0}
-                          sizes="100vh"
+                  <div className="shadow-md p-4 group hover:shadow-lg transition-all duration-300 ease-in-out">
+                    <Image
+                      src={`${work.photo}`}
+                      alt="next starter project"
+                      width={0}
+                      height={0}
+                      sizes="100vh"
 
-                          className="block w-full h-full"
-                        />
-                      </div>
-                      <div className="">
+                      className="block w-full group-hover:brightness-50 transition-all duration-300 ease-in-out"
+                    />
 
 
-                        <div className="md:pl-0 pl-4">
-                          <p className="dark:text-slate-300 font-bold md:text-lg">{work.title}</p>
-                          <p className="dark:text-slate-300">{work.description}</p>
-                        </div>
 
-                        <div className="w-[80%] mt-6">
-                          <div className="flex items-center justify-between">
-                            <button className="md:block hidden w-36 border-[2px] dark:border-white dark:text-white border-blue-600 rounded-3xl py-2.5 text-center hover:shadow-lg hover:text-black hover:border-transparent transition-all ease-in-out duration-300" onClick={() => { handelShowModal(work) }}>
-                              More
-                            </button>
-                            <Link href={`${work.link}`} target="_blank" className="md:ml-1 ml-4 w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white">Visit</Link>
-                          </div>
-                        </div>
-                      </div>
+
+                    <div className="md:pl-0 pl-4 my-3">
+                      <p className="dark:text-slate-300 font-bold md:text-lg">{work.title}</p>
+                      <p className="dark:text-slate-300">{work.description}</p>
+                    </div>
+
+
+                    <div className="flex items-center space-x-5">
+                      <button className="md:block hidden border-[2px] dark:border-white dark:text-white border-blue-600 rounded-lg py-1.5 px-4 text-center hover:shadow-lg hover:text-black hover:border-transparent transition-all ease-in-out duration-300" onClick={() => { handelShowModal(work) }}>
+                        More
+                      </button>
+                      <Link href={`${work.link}`} target="_blank" className="md:ml-1 py-1.5 px-4 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-md text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white">Visit</Link>
                     </div>
 
                   </div>
                 )
               })
+
             }
+
           </div>
+
+
         </div>
       </section>
       <WorkModal modalContent={state.modal.modalContent} work={state.modal.work} isModalOpen={state.modal.isOpen} />
