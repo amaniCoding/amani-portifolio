@@ -256,7 +256,7 @@ export default function Works() {
             {
               works.map(work => {
                 return (
-                  <div className="shadow-md p-4 group hover:shadow-lg transition-all duration-300 ease-in-out">
+                  <div className="shadow-md p-4 group hover:shadow-lg transition-all duration-300 ease-in-out" key={work.id}>
                     <Image
                       src={`${work.photo}`}
                       alt="next starter project"
