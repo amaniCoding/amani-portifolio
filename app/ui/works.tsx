@@ -141,7 +141,7 @@ export default function Works() {
     {
       id: 4,
       title: "Medical compnay website",
-      description: 'Medico website : Frontend only using react and tailwind for styling',
+      description: 'Medico static website : Frontend only using react and tailwind for styling',
       photo: "/works/wo-4/wall.jpg",
       link: "https://medico-alpha.vercel.app",
 
@@ -169,33 +169,33 @@ export default function Works() {
     {
       id: 5,
       title: "News compnay website",
-      description: 'Website made for news company using Next.js and tailwindcss for styling',
+      description: 'Static Website made using Next.js and tailwindcss for styling',
       photo: "/works/wo-5/wall.jpg",
       link: "https://my-news-app-rho.vercel.app",
 
       modalContent: [
         {
           id: 1,
-          title: "Styling",
-          description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
+          title: "",
+          description: "",
           photo: "/works/wo-5/1.jpg",
         },
         {
           id: 2,
-          title: "Database connectivity",
-          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, ofcourse i will work it as long as there is time and as long as i can !",
+          title: "",
+          description: "",
           photo: "/works/wo-5/2.jpg",
         },
         {
           id: 3,
-          title: "Data fetching",
-          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, ofcourse i will work it as long as there is time and as long as i can !",
+          title: "",
+          description: "",
           photo: "/works/wo-5/3.jpg",
         },
         {
           id: 4,
-          title: "Authentication",
-          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, ofcourse i will work it as long as there is time and as long as i can !",
+          title: "",
+          description: "",
           photo: "/works/wo-5/4.jpg",
         }
 
