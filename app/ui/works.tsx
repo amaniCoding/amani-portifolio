@@ -176,26 +176,26 @@ export default function Works() {
       modalContent: [
         {
           id: 1,
-          title: "",
-          description: "",
+          title: "Styling",
+          description: "It use Tailwind which is a CSS framework that speeds up the development process by allowing you to quickly write utility classes directly in your TSX markup.",
           photo: "/works/wo-5/1.jpg",
         },
         {
           id: 2,
-          title: "",
-          description: "",
+          title: "Database connectivity",
+          description: "It connects to database to store dynamic data, it connects to databse directly from vercel postgress sql server, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-5/2.jpg",
         },
         {
           id: 3,
-          title: "",
-          description: "",
+          title: "Data fetching",
+          description: "Using next powerful feature of server compoenents by querying database directly, it populates data coming from server into UI, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-5/3.jpg",
         },
         {
           id: 4,
-          title: "",
-          description: "",
+          title: "Authentication",
+          description: "Features Authentication which is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password and Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use. uses nextAth, ofcourse i will work it as long as there is time and as long as i can !",
           photo: "/works/wo-5/4.jpg",
         }
 
