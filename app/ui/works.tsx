@@ -105,8 +105,8 @@ export default function Works() {
     },
     {
       id: 3,
-      title: "Dev-Connector",
-      description: 'Social media like application which connects developers and share thier ideas made using latest Next.js framework and tailwindcss for styling',
+      title: "Fakebook",
+      description: 'Facebook like application which connects people across the world and share thier ideas made using latest Next.js framework and tailwindcss for styling',
       photo: "/works/wo-3/wall.jpg",
       link: "https://divconnector.vercel.app",
 
