@@ -6,6 +6,7 @@ import { useContext, useEffect } from "react";
 import WorkModal from "./work-modal";
 import { AppContext } from "../Provider/provider";
 import { GlobalContextType, MyWork } from "../types/types";
+import { motion } from "motion/react";
 
 export default function Works() {
 
@@ -256,34 +257,45 @@ export default function Works() {
             {
               works.map(work => {
                 return (
-                  <div className="shadow-md p-4 group hover:shadow-lg transition-all duration-300 ease-in-out" key={work.id}>
-                    <Image
-                      src={`${work.photo}`}
-                      alt="next starter project"
-                      width={0}
-                      height={0}
-                      sizes="100vh"
+                  <motion.div key={work.id}
+                    initial={{ scale: 0.5, opacity: 0 }}
+                    viewport={{once: false}}
+                    whileInView={{
+                      scale: 1,
+                      opacity: 1,
+                      transition: { duration: 0.7, delay: 0.2 }
+                    }}
+                  
+                    >
+                    <div className="shadow-md p-4 group hover:shadow-lg transition-all duration-300 ease-in-out" key={work.id}>
+                      <Image
+                        src={`${work.photo}`}
+                        alt="next starter project"
+                        width={0}
+                        height={0}
+                        sizes="100vh"
 
-                      className="block w-full group-hover:brightness-50 transition-all duration-300 ease-in-out"
-                    />
+                        className="block w-full group-hover:brightness-50 transition-all duration-300 ease-in-out"
+                      />
 
 
 
 
-                    <div className="md:pl-0 pl-4 my-3">
-                      <p className="dark:text-slate-300 font-bold md:text-lg">{work.title}</p>
-                      <p className="dark:text-slate-300">{work.description}</p>
+                      <div className="md:pl-0 pl-4 my-3">
+                        <p className="dark:text-slate-300 font-bold md:text-lg">{work.title}</p>
+                        <p className="dark:text-slate-300">{work.description}</p>
+                      </div>
+
+
+                      <div className="flex items-center space-x-5">
+                        <button className="md:block hidden border-[2px] dark:border-white dark:text-white border-blue-600 rounded-lg py-1.5 px-4 text-center hover:shadow-lg hover:text-black hover:border-transparent transition-all ease-in-out duration-300" onClick={() => { handelShowModal(work) }}>
+                          More
+                        </button>
+                        <Link href={`${work.link}`} target="_blank" className="md:ml-1 py-1.5 px-4 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-md text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white">Visit</Link>
+                      </div>
+
                     </div>
-
-
-                    <div className="flex items-center space-x-5">
-                      <button className="md:block hidden border-[2px] dark:border-white dark:text-white border-blue-600 rounded-lg py-1.5 px-4 text-center hover:shadow-lg hover:text-black hover:border-transparent transition-all ease-in-out duration-300" onClick={() => { handelShowModal(work) }}>
-                        More
-                      </button>
-                      <Link href={`${work.link}`} target="_blank" className="md:ml-1 py-1.5 px-4 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-md text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white">Visit</Link>
-                    </div>
-
-                  </div>
+                  </motion.div>
                 )
               })
 
