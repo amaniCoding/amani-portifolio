@@ -259,15 +259,15 @@ export default function Works() {
                 return (
                   <motion.div key={work.id}
                     initial={{ translateY: 120, opacity: 0 }}
-                    viewport={{once: true}}
+                    viewport={{ once: true }}
                     whileInView={{
                       translateY: 0,
                       opacity: 1,
-                      transition: { duration: 0.7, delay: 0.2 }
+                      transition: { duration: 0.7 }
                     }}
-                  
-                    >
-                    <div className="shadow-md p-4 group hover:shadow-lg transition-all duration-300 ease-in-out" key={work.id}>
+
+                  >
+                    <div className="shadow-md h-[25rem] rounded-lg group hover:shadow-lg transition-all duration-300 ease-in-out">
                       <Image
                         src={`${work.photo}`}
                         alt="next starter project"
@@ -281,17 +281,19 @@ export default function Works() {
 
 
 
-                      <div className="md:pl-0 pl-4 my-3">
-                        <p className="dark:text-slate-300 font-bold md:text-lg">{work.title}</p>
-                        <p className="dark:text-slate-300">{work.description}</p>
-                      </div>
+                      <div className="flex flex-col px-6 pb-6">
+                        <div className="md:pl-0 my-3 flex-grow">
+                          <p className="dark:text-slate-300 font-bold md:text-lg">{work.title}</p>
+                          <p className="dark:text-slate-300">{work.description.length > 80 ? `${work.description.substring(0, 80)}...` : work.description}</p>
+                        </div>
 
 
-                      <div className="flex items-center space-x-5">
-                        <button className="md:block hidden border-[2px] dark:border-white dark:text-white border-blue-600 rounded-lg py-1.5 px-4 text-center hover:shadow-lg hover:text-black hover:border-transparent transition-all ease-in-out duration-300" onClick={() => { handelShowModal(work) }}>
-                          More
-                        </button>
-                        <Link href={`${work.link}`} target="_blank" className="md:ml-1 py-1.5 px-4 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-md text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white">Visit</Link>
+                        <div className="flex items-center space-x-5">
+                          <button className="md:block hidden border-[2px] dark:border-white dark:text-white border-blue-600 rounded-lg py-1.5 px-4 text-center hover:shadow-lg hover:text-black hover:border-transparent transition-all ease-in-out duration-300" onClick={() => { handelShowModal(work) }}>
+                            More
+                          </button>
+                          <Link href={`${work.link}`} target="_blank" className="md:ml-1 py-1.5 px-4 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-md text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white">Visit</Link>
+                        </div>
                       </div>
 
                     </div>
