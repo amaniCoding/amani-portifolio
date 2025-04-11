@@ -6,8 +6,8 @@ export default function AboutMe() {
   return (
     <section className="w-full p-2 md:py-10 py-2 dark:bg-gray-700" id="about-me">
       <motion.div
-        initial={{ translateX: 200, opacity: 0 }}
-        viewport={{ once: false }}
+        initial={{ translateX: 150, opacity: 0 }}
+        viewport={{ once: true }}
 
         whileInView={{
           translateX: 0,

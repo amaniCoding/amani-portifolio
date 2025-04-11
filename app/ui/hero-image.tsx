@@ -32,7 +32,7 @@ export default function HeroImage() {
                 <div className='grow'>
                     <motion.div
                         initial={{ translateX: 50, opacity: 0 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
 
                         whileInView={{
                             translateX: 0,
@@ -44,7 +44,7 @@ export default function HeroImage() {
                     </motion.div>
                     <motion.div
                         initial={{ translateX: 50, opacity: 0 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
 
                         whileInView={{
                             translateX: 0,
@@ -62,7 +62,7 @@ export default function HeroImage() {
                 <div className='w-full flex flex-col space-y-4 p-4'>
                     <motion.div
                         initial={{ scale: 0, opacity: 0 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
 
                         whileInView={{
                             scale: 1,
@@ -73,7 +73,7 @@ export default function HeroImage() {
                     </motion.div>
                     <motion.div
                         initial={{ translateY: 50, opacity: 0 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
 
                         whileInView={{
                             translateY: 0,
@@ -84,7 +84,7 @@ export default function HeroImage() {
                     </motion.div>
                     <motion.div
                         initial={{ scale: 0, opacity: 0 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
 
                         whileInView={{
                             scale: 1,

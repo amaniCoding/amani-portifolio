@@ -9,8 +9,8 @@ export default function Certificates() {
 
       <div className="mx-auto max-w-screen-sm">
         <motion.div
-          initial={{ translateY: 100, opacity: 0 }}
-          viewport={{ once: false }}
+          initial={{ translateY: 80, opacity: 0 }}
+          viewport={{ once: true }}
 
           whileInView={{
             translateY: 0,
@@ -26,7 +26,7 @@ export default function Certificates() {
             <div className="group relative rounded-xl overflow-hidden w-full p-5">
               <motion.div
                 initial={{ scale: 0, opacity: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
 
                 whileInView={{
                   scale: 1,
@@ -59,7 +59,7 @@ export default function Certificates() {
             </div>
             <motion.div
               initial={{ translateY: 30, opacity: 0 }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
 
               whileInView={{
                 translateY: 0,
@@ -80,7 +80,7 @@ export default function Certificates() {
             <div className="group relative rounded-xl overflow-hidden w-full p-5">
               <motion.div
                 initial={{ scale: 0, opacity: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
 
                 whileInView={{
                   scale: 1,
@@ -112,7 +112,7 @@ export default function Certificates() {
             </div>
             <motion.div
               initial={{ translateY: 30, opacity: 0 }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
 
               whileInView={{
                 translateY: 0,
@@ -133,7 +133,7 @@ export default function Certificates() {
             <div className="group relative rounded-xl overflow-hidden w-full p-5">
               <motion.div
                 initial={{ scale: 0, opacity: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
 
                 whileInView={{
                   scale: 1,
@@ -165,7 +165,7 @@ export default function Certificates() {
             </div>
             <motion.div
               initial={{ translateY: 30, opacity: 0 }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
 
               whileInView={{
                 translateY: 0,
@@ -193,7 +193,7 @@ export default function Certificates() {
             <div className="rounded-xl group relative overflow-hidden w-full p-4">
               <motion.div
                 initial={{ scale: 0, opacity: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
 
                 whileInView={{
                   scale: 1,
@@ -224,8 +224,8 @@ export default function Certificates() {
 
             </div>
             <motion.div
-              initial={{ translateY: 100, opacity: 0 }}
-              viewport={{ once: false }}
+              initial={{ translateY: 80, opacity: 0 }}
+              viewport={{ once: true }}
 
               whileInView={{
                 translateY: 0,
@@ -248,7 +248,7 @@ export default function Certificates() {
             <div className="rounded-xl group relative overflow-hidden w-full p-4">
               <motion.div
                 initial={{ scale: 0, opacity: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
 
                 whileInView={{
                   scale: 1,
@@ -279,8 +279,8 @@ export default function Certificates() {
 
             </div>
             <motion.div
-              initial={{ translateY: 100, opacity: 0.8 }}
-              viewport={{ once: false }}
+              initial={{ translateY: 80, opacity: 0.8 }}
+              viewport={{ once: true }}
 
               whileInView={{
                 translateY: 0,

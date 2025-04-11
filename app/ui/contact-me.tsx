@@ -10,8 +10,8 @@ export default function ContactMe() {
         <section className="w-full py-5 dark:mb-0 mb-4  dark:bg-gray-800" id="contact-me">
             <div className="mx-auto max-w-screen-lg mb-4">
                 <motion.div
-                    initial={{ translateY: 100, opacity: 0 }}
-                    viewport={{ once: false }}
+                    initial={{ translateY: 80, opacity: 0 }}
+                    viewport={{ once: true }}
 
                     whileInView={{
                         translateY: 0,
@@ -24,7 +24,7 @@ export default function ContactMe() {
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
                     <motion.div
                         initial={{ translateY: 80, opacity: 0 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
 
                         whileInView={{
                             translateY: 0,
@@ -64,7 +64,7 @@ export default function ContactMe() {
 
                     <motion.div
                         initial={{ translateY: 80, opacity: 0 }}
-                        viewport={{ once: false }}
+                        viewport={{ once: true }}
 
                         whileInView={{
                             translateY: 0,

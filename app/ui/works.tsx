@@ -258,10 +258,10 @@ export default function Works() {
               works.map(work => {
                 return (
                   <motion.div key={work.id}
-                    initial={{ scale: 0.5, opacity: 0 }}
-                    viewport={{once: false}}
+                    initial={{ translateY: 120, opacity: 0 }}
+                    viewport={{once: true}}
                     whileInView={{
-                      scale: 1,
+                      translateY: 0,
                       opacity: 1,
                       transition: { duration: 0.7, delay: 0.2 }
                     }}
