@@ -23,7 +23,7 @@ export default function TechStacks() {
       <div className="mx-auto max-w-screen-xl">
         <div className="grid md:grid-cols-4 grid-cols-3 md:gap-6 gap-1">
           <motion.div
-            initial={{ translateY: 80, opacity: 0 }}
+            initial={{ translateY: 75, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
@@ -48,7 +48,7 @@ export default function TechStacks() {
 
 
           <motion.div
-            initial={{ translateY: 80, opacity: 0 }}
+            initial={{ translateY: 75, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
@@ -68,13 +68,13 @@ export default function TechStacks() {
           </motion.div>
 
           <motion.div
-            initial={{ translateY: 80, opacity: 0 }}
+            initial={{ translateY: 75, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.4 }
+              transition: { duration: 0.8, delay: 0.3 }
             }}>
             <div className="flex flex-col items-center justify-center group">
               <div className="md:w-32 md:h-32 w-20 h-20 rounded-full  flex items-center justify-center dark:group-hover:bg-gray-50/5">
@@ -91,13 +91,13 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 80, opacity: 0 }}
+            initial={{ translateY: 75, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.5 }
+              transition: { duration: 0.8, delay: 0.4 }
             }}>
             <div className="flex flex-col items-center justify-center group">
               <div className="md:w-32 md:h-32 w-20 h-20 rounded-full  flex items-center justify-center dark:group-hover:bg-gray-50/5">
@@ -114,13 +114,13 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 80, opacity: 0 }}
+            initial={{ translateY: 75, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.6 }
+              transition: { duration: 0.8, delay: 0.5 }
             }}>
             <div className="flex flex-col items-center justify-center group">
               <div className="md:w-32 md:h-32 w-20 h-20 rounded-full  flex items-center justify-center dark:group-hover:bg-gray-50/5">
@@ -137,13 +137,13 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 80, opacity: 0 }}
+            initial={{ translateY: 75, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.7 }
+              transition: { duration: 0.8, delay: 0.6 }
             }}>
             <div className="flex flex-col items-center justify-center group">
               <div className="md:w-32 md:h-32 w-20 h-20 rounded-full  flex items-center justify-center dark:group-hover:bg-gray-50/5">
@@ -161,13 +161,13 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 80, opacity: 0 }}
+            initial={{ translateY: 75, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.8 }
+              transition: { duration: 0.8, delay: 0.7 }
             }}>
             <div className="flex flex-col items-center justify-center group">
               <div className="md:w-32 md:h-32 w-20 h-20 rounded-full  flex items-center justify-center dark:group-hover:bg-gray-50/5">
@@ -183,13 +183,13 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 80, opacity: 0 }}
+            initial={{ translateY: 75, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.9 }
+              transition: { duration: 0.8, delay: 0.8 }
             }}>
             <div className="flex flex-col items-center justify-center group">
               <div className="md:w-32 md:h-32 w-20 h-20 rounded-full  flex items-center justify-center dark:group-hover:bg-gray-50/5">
