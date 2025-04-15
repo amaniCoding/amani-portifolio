@@ -275,7 +275,7 @@ export default function Works() {
                         height={0}
                         sizes="100vh"
 
-                        className="block w-full group-hover:brightness-50 transition-all duration-300 ease-in-out"
+                        className="block w-full h-[250px] group-hover:brightness-50 transition-all duration-300 ease-in-out"
                       />
 
 
@@ -284,7 +284,7 @@ export default function Works() {
                       <div className="flex flex-col px-6 pb-6">
                         <div className="md:pl-0 my-3 flex-grow">
                           <p className="dark:text-slate-300 font-bold md:text-lg">{work.title}</p>
-                          <p className="dark:text-slate-300 truncate">{work.description}</p>
+                          <p className="dark:text-slate-300">{work.description.length > 100 ? `${work.description.substring(0, 100)} ...` : work.description}</p>
                         </div>
 
 
