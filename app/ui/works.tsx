@@ -244,9 +244,20 @@ export default function Works() {
     <>
       <section className="w-full py-4 dark:bg-gray-800" id="works">
         <div className="mx-auto max-w-screen-sm">
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            viewport={{ once: true }}
+            whileInView={{
+              scale: 1,
+              opacity: 1,
+              transition: { duration: 0.7 }
+            }}
 
-          <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-300'>Works</h1>
-          <p className="text-center mb-2 dark:text-slate-400">These are some of the projects I have worked and practiced on up until now.</p>
+          >
+            <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-300'>Works</h1>
+
+            <p className="text-center mb-2 dark:text-slate-400">These are some of the projects I have worked and practiced on up until now.</p>
+          </motion.div>
         </div>
 
         <div className="mx-auto max-w-screen-lg bg-white pt-3 dark:bg-gray-800 dark:text-white">
