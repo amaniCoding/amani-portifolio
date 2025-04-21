@@ -5,25 +5,25 @@ import { motion } from "motion/react"
 
 export default function TechStacks() {
   return (
-    <section className="w-full py-2 dark:bg-gray-800" id="skills">
+    <section className="w-full py-10 dark:bg-gray-800" id="skills">
       <motion.div
-        initial={{ scale: 0, opacity: 0 }}
+        initial={{ translateY: 75, opacity: 0 }}
         viewport={{ once: true }}
 
         whileInView={{
-          scale: 1,
+          translateY: 0,
           opacity: 1,
-          transition: { duration: 0.8, delay: 0.2 }
+          transition: { duration: 0.8, delay: 0.5 }
         }}>
         <div className="mx-auto max-w-screen-sm mb-4">
           <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-400'>Tech Stacks</h1>
           <p className="text-center mb-2 dark:text-slate-200 px-3">Here are a list of tools, libraries and platforms I have had precious experience on.</p>
         </div>
       </motion.div>
-      <div className="mx-auto max-w-screen-xl">
-        <div className="grid md:grid-cols-4 grid-cols-3 md:gap-6 gap-1">
+      <div className="mx-auto max-w-screen-xl py-2 md:py-10">
+        <div className="grid md:grid-cols-4 grid-cols-2 md:gap-6 gap-1">
           <motion.div
-            initial={{ translateY: 60, opacity: 0 }}
+            initial={{ translateY: 90, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
@@ -48,7 +48,7 @@ export default function TechStacks() {
 
 
           <motion.div
-            initial={{ translateY: 60, opacity: 0 }}
+            initial={{ translateY: 90, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
@@ -68,7 +68,7 @@ export default function TechStacks() {
           </motion.div>
 
           <motion.div
-            initial={{ translateY: 60, opacity: 0 }}
+            initial={{ translateY: 90, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
@@ -91,7 +91,7 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 60, opacity: 0 }}
+            initial={{ translateY: 90, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
@@ -114,7 +114,7 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 60, opacity: 0 }}
+            initial={{ translateY: 90, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
@@ -137,7 +137,7 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 60, opacity: 0 }}
+            initial={{ translateY: 90, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
@@ -161,7 +161,7 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 60, opacity: 0 }}
+            initial={{ translateY: 90, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{
@@ -183,7 +183,7 @@ export default function TechStacks() {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateY: 60, opacity: 0 }}
+            initial={{ translateY: 90, opacity: 0 }}
             viewport={{ once: true }}
 
             whileInView={{

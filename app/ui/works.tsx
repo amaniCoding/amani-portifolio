@@ -242,25 +242,24 @@ export default function Works() {
   ]
   return (
     <>
-      <section className="w-full py-4 dark:bg-gray-800" id="works">
-        <div className="mx-auto max-w-screen-sm">
+      <section className="w-full  dark:bg-gray-800" id="works">
+        <div className="mx-auto max-w-screen-sm py-10">
           <motion.div
-            initial={{ scale: 0, opacity: 0 }}
+            initial={{ translateY: 75, opacity: 0 }}
             viewport={{ once: true }}
-            whileInView={{
-              scale: 1,
-              opacity: 1,
-              transition: { duration: 0.7 }
-            }}
 
-          >
+            whileInView={{
+              translateY: 0,
+              opacity: 1,
+              transition: { duration: 0.8, delay: 0.5 }
+            }}>
             <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-300'>Works</h1>
 
             <p className="text-center mb-2 dark:text-slate-400">These are some of the projects I have worked and practiced on up until now.</p>
           </motion.div>
         </div>
 
-        <div className="mx-auto max-w-screen-lg bg-white pt-3 dark:bg-gray-800 dark:text-white">
+        <div className="mx-auto max-w-screen-lg bg-white py-2 md:py-10 dark:bg-gray-800 dark:text-white">
 
 
 
@@ -299,11 +298,23 @@ export default function Works() {
                         </div>
 
 
-                        <div className="flex items-center space-x-5">
+                        <div className="flex items-center md:space-x-5">
+                          
                           <button className="md:block hidden border-[2px] dark:border-white dark:text-white border-blue-600 rounded-lg py-1.5 px-4 text-center hover:shadow-lg hover:text-black hover:border-transparent transition-all ease-in-out duration-300" onClick={() => { handelShowModal(work) }}>
                             More
                           </button>
+                          <motion.div key={work.id}
+                    initial={{ translateX: -20, opacity: 0 }}
+                    viewport={{ once: true }}
+                    whileInView={{
+                      translateX: 0,
+                      opacity: 1,
+                      transition: { duration: 0.7 }
+                    }}
+
+                  >
                           <Link href={`${work.link}`} target="_blank" className="md:ml-1 py-1.5 px-4 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-md text-white text-center transition-all ease-in-out duration-300 dark:bg-gray-950 dark:text-white">Visit</Link>
+                          </motion.div>
                         </div>
                       </div>
 

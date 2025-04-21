@@ -4,13 +4,13 @@ import { motion } from "motion/react"
 
 export default function AboutMe() {
   return (
-    <section className="w-full p-2 md:py-10 py-2 dark:bg-gray-700" id="about-me">
+    <section className="w-full p-2 py-10  dark:bg-gray-700" id="about-me">
       <motion.div
-        initial={{ scale: 0, opacity: 0 }}
+        initial={{ translateY: 77, opacity: 0 }}
         viewport={{ once: true }}
 
         whileInView={{
-          scale: 1,
+          translateY: 1,
           opacity: 1,
           transition: { duration: 0.8, delay: 0.2 }
         }}>

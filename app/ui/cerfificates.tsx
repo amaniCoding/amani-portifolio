@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Certificates() {
   return (
-    <section className="w-full my-1 dark:pt-4 dark:mb-0 dark:mt-0 dark:bg-slate-800" id="certificates">
+    <section className="w-full my-1 py-10 dark:pt-4 dark:mb-0 dark:mt-0 dark:bg-slate-800" id="certificates">
 
       <div className="mx-auto max-w-screen-sm">
         <motion.div
@@ -17,7 +17,7 @@ export default function Certificates() {
             opacity: 1,
             transition: { duration: 0.7, delay: 0.2 }
           }}>
-          <h1 className='md:text-xl text-lg font-bold text-center my-1 dark:text-slate-400'>Certificates</h1>
+          <h1 className='md:text-xl text-lg font-bold text-center py-10 my-1 dark:text-slate-400'>Certificates</h1>
         </motion.div>
       </div>
       <div className="mx-auto max-w-screen-lg">
@@ -71,9 +71,19 @@ export default function Certificates() {
                 <p className="text-center dark:text-white"> Skills that all programmers use, whether they build apps, web pages, or analyze data.</p>
               </div>
             </motion.div>
-            <Link
-              href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
-              target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+            <motion.div
+              initial={{ translateX: -80, opacity: 0 }}
+              viewport={{ once: true }}
+
+              whileInView={{
+                translateX: 0,
+                opacity: 1,
+                transition: { duration: 0.7, delay: 0.2 }
+              }}>
+              <Link
+                href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=drive_link`}
+                target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-28 py-2 block hover:shadow-lg border-[2px] border-blue-600 dark:border-transparent dark:hover:border-white hover:border-white rounded-xl text-black dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+            </motion.div>
           </div>
 
           <div className="">
@@ -124,10 +134,19 @@ export default function Certificates() {
                 <p className="text-center dark:text-white">Learn the latest in development technology using Android Studio.</p>
               </div>
             </motion.div>
+            <motion.div
+              initial={{ translateX: -80, opacity: 0 }}
+              viewport={{ once: true }}
 
-            <Link
-              href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=drive_link`}
-              target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+              whileInView={{
+                translateX: 0,
+                opacity: 1,
+                transition: { duration: 0.7, delay: 0.2 }
+              }}>
+              <Link
+                href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=drive_link`}
+                target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-28 py-2 block hover:shadow-lg border-[2px] border-blue-600 dark:border-transparent dark:hover:border-white hover:border-white rounded-xl text-black dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+            </motion.div>
           </div>
           <div className="">
             <div className="group relative rounded-xl overflow-hidden w-full p-5">
@@ -177,9 +196,19 @@ export default function Certificates() {
                 <p className="text-center dark:text-white">Explore a variety of datasets, posing and answering your own questions about each.</p>
               </div>
             </motion.div>
-            <Link
-              href={`https://drive.google.com/file/d/1tnA9YlmapjNED_DaiJhgAX8-rARAScgq/view?usp=drive_link`}
-              target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+            <motion.div
+              initial={{ translateX: -80, opacity: 0 }}
+              viewport={{ once: true }}
+
+              whileInView={{
+                translateX: 0,
+                opacity: 1,
+                transition: { duration: 0.7, delay: 0.2 }
+              }}>
+              <Link
+                href={`https://drive.google.com/file/d/1tnA9YlmapjNED_DaiJhgAX8-rARAScgq/view?usp=drive_link`}
+                target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-28 py-2 block hover:shadow-lg border-[2px] border-blue-600 dark:border-transparent dark:hover:border-white hover:border-white rounded-xl text-black dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+            </motion.div>
           </div>
 
 
@@ -235,9 +264,19 @@ export default function Certificates() {
               <div className="my-2">
                 <h2 className="text-lg font-bold text-center dark:text-white">A degree certificate </h2>
                 <p className="text-center dark:text-white md:p-0 p-3">Diploma awarded by an educational establishment showing that I have successfully completed Information Technology</p>
-                <Link
-                  href={`/cert/4.jpg`}
-                  target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+                <motion.div
+                  initial={{ translateX: -80, opacity: 0 }}
+                  viewport={{ once: true }}
+
+                  whileInView={{
+                    translateX: 0,
+                    opacity: 1,
+                    transition: { duration: 0.7, delay: 0.2 }
+                  }}>
+                  <Link
+                    href={`/cert/4.jpg`}
+                    target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-28 py-2 block hover:shadow-lg border-[2px] border-blue-600 dark:border-transparent dark:hover:border-white hover:border-white rounded-xl text-black dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+                </motion.div>
               </div>
             </motion.div>
           </div>
@@ -290,8 +329,18 @@ export default function Certificates() {
               <div className="my-2">
                 <h2 className="text-lg font-bold text-center dark:text-white">A degree student record </h2>
                 <p className="text-center dark:text-white md:p-0 p-3">Official document maintained by an educational institution that details a students entire academic history throughout their pursuit of a specific degree, including all courses taken, grades received</p>
-                <Link
-                  href={`/cert/5.jpg`} target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-36 py-2.5 block hover:shadow-lg border-[2px] border-transparent hover:border-white bg-blue-500 rounded-3xl text-white dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+                <motion.div
+                  initial={{ translateX: -80, opacity: 0 }}
+                  viewport={{ once: true }}
+
+                  whileInView={{
+                    translateX: 0,
+                    opacity: 1,
+                    transition: { duration: 0.7, delay: 0.2 }
+                  }}>
+                  <Link
+                    href={`/cert/5.jpg`} target="_blank" className="mt-4 md:ml-1 ml-4 md:hidden w-28 py-2 block hover:shadow-lg border-[2px] border-blue-600 dark:border-transparent dark:hover:border-white hover:border-white rounded-xl text-black dark:bg-gray-700 dark:text-white text-center transition-all ease-in-out duration-300">View</Link>
+                </motion.div>
               </div>
             </motion.div>
           </div>

@@ -7,29 +7,29 @@ import { FaFacebook, FaLinkedinIn, FaTelegram, FaWhatsapp } from "react-icons/fa
 
 export default function ContactMe() {
     return (
-        <section className="w-full py-5 dark:mb-0 mb-4  dark:bg-gray-800" id="contact-me">
-            <div className="mx-auto max-w-screen-lg mb-4">
+        <section className="w-full dark:mb-0 mb-4  dark:bg-gray-800" id="contact-me">
+            <div className="mx-auto max-w-screen-lg py-2 md:py-10">
                 <motion.div
-                    initial={{ translateY: 80, opacity: 0 }}
+                    initial={{ translateY: 95, opacity: 0 }}
                     viewport={{ once: true }}
 
                     whileInView={{
                         translateY: 0,
                         opacity: 1,
-                        transition: { duration: 0.7, delay: 0.2 }
+                        transition: { duration: 0.8 }
                     }}>
                     <h1 className='md:text-xl text-lg font-bold text-center mb-1 dark:text-slate-400'>Let us build together</h1>
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
                     <motion.div
-                        initial={{ translateY: 80, opacity: 0 }}
+                        initial={{ translateY: 95, opacity: 0 }}
                         viewport={{ once: true }}
 
                         whileInView={{
                             translateY: 0,
                             opacity: 1,
-                            transition: { duration: 0.8, delay: 0.2 }
+                            transition: { duration: 0.8, delay: 0.3 }
                         }}>
                         <div className="my-2 max-w-screen-sm mx-auto p-3 w-full">
                             <div className="my-2">
@@ -63,7 +63,7 @@ export default function ContactMe() {
                     </motion.div>
 
                     <motion.div
-                        initial={{ translateY: 80, opacity: 0 }}
+                        initial={{ translateY: 95, opacity: 0 }}
                         viewport={{ once: true }}
 
                         whileInView={{
