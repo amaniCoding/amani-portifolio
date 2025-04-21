@@ -1,7 +1,6 @@
 'use client'
 import { motion } from 'motion/react';
 import Image from 'next/image';
-import Link from 'next/link';
 import { useState } from 'react';
 
 export default function HeroImage() {
@@ -11,7 +10,7 @@ export default function HeroImage() {
         e.preventDefault()
         window.scrollTo({
             // @ts-expect-error: Object is possibly 'null'.
-            top: document.querySelector(`#${name}`).offsetTop + 10,
+            top: document.querySelector(`#${name}`).offsetTop,
             behavior: "smooth"
         });
         setShowCollapse(false);
