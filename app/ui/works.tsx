@@ -109,7 +109,7 @@ export default function Works() {
       title: "Fakebook",
       description: 'Facebook like application which connects people across the world and share thier ideas made using latest Next.js framework and tailwindcss for styling',
       photo: "/works/wo-3/wall.jpg",
-      link: "https://fakebook-pearl.vercel.app/",
+      link: "https://fakebook-psi-pearl.vercel.app/",
 
       modalContent: [
         {
