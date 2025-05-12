@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import WorkModal from "./work-modal";
 import { AppContext } from "../Provider/provider";
 import { GlobalContextType, MyWork } from "../types/types";
