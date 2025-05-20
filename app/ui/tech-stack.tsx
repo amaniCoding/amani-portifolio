@@ -24,7 +24,7 @@ export default function TechStacks() {
         whileInView={{
           translateY: 0,
           opacity: 1,
-          transition: { duration: 0.8, delay: 0.6 },
+          transition: { duration: 0.6, delay: 0.6 },
         }}
       >
         <div className="mx-auto max-w-screen-sm mb-4">
@@ -45,7 +45,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.6 },
+              transition: { duration: 0.6, delay: 0.6 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -66,7 +66,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.7 },
+              transition: { duration: 0.6, delay: 0.7 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -87,7 +87,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.8 },
+              transition: { duration: 0.6, delay: 0.8 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -107,7 +107,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 0.9 },
+              transition: { duration: 0.6, delay: 0.9 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -128,7 +128,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1 },
+              transition: { duration: 0.6, delay: 1 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -149,7 +149,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1.1 },
+              transition: { duration: 0.6, delay: 1.1 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -169,7 +169,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1.2 },
+              transition: { duration: 0.6, delay: 1.2 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -190,7 +190,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1.3 },
+              transition: { duration: 0.6, delay: 1.3 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -210,7 +210,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1.4 },
+              transition: { duration: 0.6, delay: 1.4 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -231,7 +231,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1.5 },
+              transition: { duration: 0.6, delay: 1.5 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -252,7 +252,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1.6 },
+              transition: { duration: 0.6, delay: 1.6 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -272,7 +272,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1.7 },
+              transition: { duration: 0.6, delay: 1.7 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -292,7 +292,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1.8 },
+              transition: { duration: 0.6, delay: 1.8 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -313,7 +313,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 1.9 },
+              transition: { duration: 0.6, delay: 1.9 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
@@ -333,7 +333,7 @@ export default function TechStacks() {
             whileInView={{
               translateY: 0,
               opacity: 1,
-              transition: { duration: 0.8, delay: 2 },
+              transition: { duration: 0.6, delay: 2 },
             }}
           >
             <div className="flex flex-col items-center justify-center">
